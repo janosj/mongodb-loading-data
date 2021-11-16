@@ -1,0 +1,7 @@
+# Uses Atlas
+# MDB_CONNECT_URI="mongodb+srv://demoUser:demoPassword@your.cluster.mongodb.net"
+
+# Uses Local
+# MDB_CONNECT_URI="mongodb://localhost:27017"
+
+

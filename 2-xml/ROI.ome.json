@@ -1,0 +1,183 @@
+{
+   "schemaLocation": "http://www.openmicroscopy.org/Schemas/OME/2016-06 http://www.openmicroscopy.org/Schemas/OME/2016-06/ome.xsd",
+   "Image": {
+      "ID": "Image:0",
+      "Name": "6x6x1x8-swatch.tif",
+      "AcquisitionDate": "2010-02-23T12:51:30",
+      "Pixels": {
+         "DimensionOrder": "XYCZT",
+         "ID": "Pixels:0:0",
+         "PhysicalSizeX": "10000.0",
+         "PhysicalSizeY": "10000.0",
+         "Type": "uint8",
+         "SizeC": "3",
+         "SizeT": "1",
+         "SizeX": "6",
+         "SizeY": "4",
+         "SizeZ": "1",
+         "Channel": [
+            {
+               "AcquisitionMode": "LaserScanningConfocalMicroscopy",
+               "Color": "-2147483648",
+               "ID": "Channel:0"
+            },
+            {
+               "AcquisitionMode": "LaserScanningConfocalMicroscopy",
+               "Color": "-2147483648",
+               "ID": "Channel:1"
+            },
+            {
+               "AcquisitionMode": "MultiPhotonMicroscopy",
+               "Color": "-2147483648",
+               "ID": "Channel:2"
+            }
+         ],
+         "BinData": [
+            {
+               "BigEndian": "false",
+               "Length": "32",
+               "#text": "/wCrzur//wB5oMPi/wBIbJO3AP8ePGCF"
+            },
+            {
+               "BigEndian": "false",
+               "Length": "32",
+               "#text": "AP+rzuv/AAB5n8Pi/wBHbJO3//8dPGCF"
+            },
+            {
+               "BigEndian": "false",
+               "Length": "32",
+               "#text": "//+szuv/AP95n8PiAABHbZO3AP8dPF+G"
+            }
+         ]
+      },
+      "ROIRef": [
+         {
+            "ID": "ROI:1"
+         },
+         {
+            "ID": "ROI:2"
+         },
+         {
+            "ID": "ROI:3"
+         },
+         {
+            "ID": "ROI:4"
+         },
+         {
+            "ID": "ROI:5"
+         }
+      ]
+   },
+   "ROI": [
+      {
+         "ID": "ROI:1",
+         "Union": {
+            "Point": {
+               "ID": "Shape:1",
+               "TheC": "0",
+               "X": "1",
+               "Y": "1"
+            }
+         }
+      },
+      {
+         "ID": "ROI:2",
+         "Union": {
+            "Point": {
+               "ID": "Shape:2",
+               "FillColor": "1",
+               "FillRule": "NonZero",
+               "FontFamily": "sans-serif",
+               "FontSize": "1",
+               "FontStyle": "Bold",
+               "StrokeColor": "1",
+               "StrokeDashArray": "1",
+               "StrokeWidth": "1",
+               "Text": "Hello",
+               "TheC": "2",
+               "X": "1",
+               "Y": "1"
+            },
+            "Line": {
+               "ID": "Shape:5",
+               "X1": "1",
+               "Y1": "1",
+               "X2": "2",
+               "Y2": "2",
+               "MarkerStart": "Arrow",
+               "MarkerEnd": "Arrow"
+            }
+         }
+      },
+      {
+         "ID": "ROI:3",
+         "Union": {
+            "Rectangle": {
+               "ID": "Shape:3",
+               "FillRule": "EvenOdd",
+               "Text": "Hi There!",
+               "X": "1",
+               "Y": "2",
+               "Width": "3",
+               "Height": "4"
+            },
+            "Label": {
+               "ID": "Shape:4",
+               "FillRule": "EvenOdd",
+               "FontStyle": "Normal",
+               "FontFamily": "serif",
+               "X": "1",
+               "Y": "1"
+            }
+         }
+      },
+      {
+         "ID": "ROI:4",
+         "Union": {
+            "Rectangle": {
+               "ID": "Shape:6",
+               "FillRule": "EvenOdd",
+               "Text": "Transformed",
+               "X": "0",
+               "Y": "0",
+               "Width": "1.5",
+               "Height": "1.5",
+               "Transform": {
+                  "A00": "1.00",
+                  "A01": "0.00",
+                  "A02": "3.82",
+                  "A10": "0.00",
+                  "A11": "1.00",
+                  "A12": "2.21"
+               }
+            }
+         }
+      },
+      {
+         "ID": "ROI:5",
+         "Union": {
+            "Mask": {
+               "ID": "Shape:7",
+               "Height": "2",
+               "Width": "2",
+               "X": "1",
+               "Y": "1",
+               "Transform": {
+                  "A00": "1.00",
+                  "A01": "0.00",
+                  "A02": "2.0",
+                  "A10": "0.00",
+                  "A11": "1.00",
+                  "A12": "2.0"
+               },
+               "BinData": {
+                  "BigEndian": "true",
+                  "Length": "4",
+                  "#text": "AOnpAA=="
+               }
+            }
+         }
+      }
+   ]
+}
+

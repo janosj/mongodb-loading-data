@@ -1,0 +1,10 @@
+In the original data set, some VAERS_IDs have multiple records.
+Example: 0916605 has 2 entries with 2 different sets of symptoms (call it State A and State B).
+Unclear what this means. Are there seven symptoms in total (the aggregate)? 
+Or does the latter record replace the former?
+
+If you load the file, and then load the (unchanged) file again, you will receive 2 update records,
+as the system bounces back and forth between the two states.
+
+For demo purposes, such records should be removed, as it only causes confusion.
+

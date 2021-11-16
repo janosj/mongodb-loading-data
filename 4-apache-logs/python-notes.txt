@@ -1,0 +1,16 @@
+The pymongo docs are here: https://docs.mongodb.com/drivers/pymongo/
+
+To install/uninstall pymongo:
+  pip3 uninstall pymongo
+  pip3 install pymongo
+  pip3 show pymongo
+
+To install the apachelog parser (from here: https://pypi.org/project/apachelogs/):
+  pip3 install --user apachelogs
+
+The Apache log form string is here: http://httpd.apache.org/docs/current/mod/mod_log_config.html
+
+The data set matches the NCSA extended/combined log format, but the file has an extra "-" at the end, so I added in %X.
+
+
+
