@@ -1,6 +1,6 @@
 # GridFS
 
-MongoDB's GridFS API and tooling for storing and managing large files. Use either *mongofiles* (a command-line tool) or the GridFS API (Java used here).
+Use MongoDB's GridFS API and tooling to store and manage large files. Use either *mongofiles* (a command-line tool) or the GridFS API (Java used here).
 
 To run the Java client to upload, download, list, rename, or delete a file(s):
 
