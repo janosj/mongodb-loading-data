@@ -6,7 +6,6 @@ import com.mongodb.client.gridfs.model.*;
 import org.bson.Document;
 import org.bson.types.ObjectId;
 import java.io.*;
-
 import java.util.logging.*;
 
 
@@ -17,7 +16,6 @@ public class GridFSDemo {
 	static final String UPLOAD_FOLDER = "./sampleFiles";
 	static final String DOWNLOAD_FOLDER = "./downloadDir";
 	static final String DB_NAME = "gridfsDB";
-	
 	
 	private static void uploadFile(GridFSBucket gridFSBucket, String filename) {
 
@@ -42,7 +40,6 @@ public class GridFSDemo {
     
     
 	}
-
 	
 	private static void downloadFile(GridFSBucket gridFSBucket, String downloadFilename) {
 		
@@ -77,6 +74,7 @@ public class GridFSDemo {
     public static void main(final String[] args) {
     
     	String command = null;
+        String mongodbURI = null;
     	
     	// Disables logging so we can better see the demo output.
     	Logger mongoLogger = Logger.getLogger( "org.mongodb.driver" );
@@ -91,16 +89,20 @@ public class GridFSDemo {
         }
         */
     	
-        if (args.length == 0) {
-            // connect to the local database server
-        	System.out.println("Usage: GridFSDemo <upload|download|ls|rename|delete|clean>");
+        if (args.length < 2) {
+        	System.out.println("Usage: GridFSDemo <upload|download|ls|rename|delete|clean> <MongoDB-URI>");
         	System.exit(1);
         } else {
+
             command = args[0];
             System.out.println("Running with command " + command);
+
+            mongodbURI = args[1];
+
         }
 
-        MongoClient mongoClient = MongoClients.create();
+        // MongoClient mongoClient = MongoClients.create();
+        MongoClient mongoClient = MongoClients.create(mongodbURI);
     	
         // get database handle
         MongoDatabase myDatabase = mongoClient.getDatabase(DB_NAME);
@@ -111,7 +113,8 @@ public class GridFSDemo {
         // Create a gridFSBucket with a custom bucket name "files"
         // GridFSBucket gridFSBucket = GridFSBuckets.create(myDatabase, "files");
         
-        // GridFS will automatically create indexes on the files and chunks collections on first upload of data into the GridFS bucket.
+        // GridFS will automatically create indexes on the files and chunks collections 
+        // on first upload of data into the GridFS bucket.
         
         // UploadFromStream
         if (command.equals("upload")) {
@@ -129,7 +132,6 @@ public class GridFSDemo {
         	
         }
         
-        
         // Find Files
         if (command.equals("ls")) {
         	
@@ -139,7 +141,6 @@ public class GridFSDemo {
     			System.out.println(file.getFilename());
     		}
 
-        	
             // Or, provide a custom filter:
             /*
             gridFSBucket.find(eq("metadata.contentType", "image/png")).forEach(
@@ -152,9 +153,7 @@ public class GridFSDemo {
         	
         }
 
-        
         // Download from GridFS
-        
         if (command.equals("download")) {
         	
             // DownloadToStream
@@ -167,40 +166,34 @@ public class GridFSDemo {
 
         }
         
-
         // Rename files
         if (command.equals("rename")) {
-        	
+            System.out.println("Rename: sorry, not implemented here.");
             /*
             ObjectId fileId2 = new ObjectId(); //ObjectId of a file uploaded to GridFS
             gridFSBucket.rename(fileId2, "mongodbTutorial");
             */
-        	
         }
-        
         
         // Delete files
         if (command.equals("delete")) {
         	
-            
             // Deletes the first file it finds.
         	GridFSFindIterable files = gridFSBucket.find();
         	GridFSFile firstFile = files.first();
-        	System.out.println( "Deleting file (ObjectID " + firstFile.getId().toString() );
+        	System.out.println( "File not specified - deleting file at random (ObjectID " + firstFile.getId().toString() + ")" );
         	gridFSBucket.delete( firstFile.getId() );
 
         	// Or, delete a specific file
             // ObjectId fileId3 = new ObjectId("5e5ee88c0ab6df133fedcd1e"); 
             // gridFSBucket.delete(fileId3);
-
             
         }
-        
         
         // Clean up
         if (command.equals("clean")) {
             myDatabase.drop();
-            System.out.println("Done.");
+            System.out.println("Done. Database gridfsDB dropped.");
         }
 
         // release resources
