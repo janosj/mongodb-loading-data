@@ -1,0 +1,1125 @@
+        {
+            "Interchange": {
+                "ISA09": "190827",
+                "ISA04": "",
+                "ISA15": "T",
+                "ISA03": "00",
+                "ISA14": "0",
+                "ISA02": "",
+                "ISA13": 191511903,
+                "ISA01": "00",
+                "ISA12": "00501",
+                "ISA08": "ABCPAYER",
+                "ISA07": "ZZ",
+                "ISA06": "ABCPAYER",
+                "ISA05": "ZZ",
+                "ISA16": "|",
+                "ISA11": "^",
+                "ISA10": "0212"
+            },
+            "Group": {
+                "GS05": 45296780,
+                "GS04": "2019-08-27T00:00:00Z",
+                "GS07": "X",
+                "GS06": 14529647,
+                "GS08": "005010X221A1",
+                "GS01": "HP",
+                "GS03": "ABCD",
+                "GS02": "ABCD"
+            },
+            "Heading": {
+                "1000A_Loop": {
+                    "PER_PayerTechnicalContactInformation": [
+                        {
+                            "PER06_PayerTechnicalContactCommunicationNumber": "EDI.SUPPORT@ANYPAYER.COM",
+                            "PER01_ContactFunctionCode": "BL",
+                            "PER04_PayerContactCommunicationNumber": "8002223330",
+                            "PER05_CommunicationNumberQualifier": "EM",
+                            "PER02_PayerTechnicalContactName": "EDI",
+                            "PER03_CommunicationNumberQualifier": "TE"
+                        },
+                        {
+                            "PER06_PayerTechnicalContactCommunicationNumber": "EDI.SUPPORT1@ANYPAYER.COM",
+                            "PER01_ContactFunctionCode": "BL",
+                            "PER04_PayerContactCommunicationNumber": "8002223331",
+                            "PER05_CommunicationNumberQualifier": "EM",
+                            "PER02_PayerTechnicalContactName": "EDI1",
+                            "PER03_CommunicationNumberQualifier": "TE"
+                        },
+                        {
+                            "PER06_PayerTechnicalContactCommunicationNumber": "EDI.SUPPORT2@ANYPAYER.COM",
+                            "PER01_ContactFunctionCode": "BL",
+                            "PER04_PayerContactCommunicationNumber": "8002223332",
+                            "PER05_CommunicationNumberQualifier": "EM",
+                            "PER02_PayerTechnicalContactName": "EDI2",
+                            "PER03_CommunicationNumberQualifier": "TE"
+                        },
+                        {
+                            "PER06_PayerTechnicalContactCommunicationNumber": "EDI.SUPPORT3@ANYPAYER.COM",
+                            "PER01_ContactFunctionCode": "BL",
+                            "PER04_PayerContactCommunicationNumber": "8002223333",
+                            "PER05_CommunicationNumberQualifier": "EM",
+                            "PER02_PayerTechnicalContactName": "EDI3",
+                            "PER03_CommunicationNumberQualifier": "TE"
+                        },
+                        {
+                            "PER06_PayerTechnicalContactCommunicationNumber": "EDI.SUPPORT4@ANYPAYER.COM",
+                            "PER01_ContactFunctionCode": "BL",
+                            "PER04_PayerContactCommunicationNumber": "8002223334",
+                            "PER05_CommunicationNumberQualifier": "EM",
+                            "PER02_PayerTechnicalContactName": "EDI4",
+                            "PER03_CommunicationNumberQualifier": "TE"
+                        },
+                        {
+                            "PER06_PayerTechnicalContactCommunicationNumber": "EDI.SUPPORT5@ANYPAYER.COM",
+                            "PER01_ContactFunctionCode": "BL",
+                            "PER04_PayerContactCommunicationNumber": "8002223335",
+                            "PER05_CommunicationNumberQualifier": "EM",
+                            "PER02_PayerTechnicalContactName": "EDI5",
+                            "PER03_CommunicationNumberQualifier": "TE"
+                        },
+                        {
+                            "PER06_PayerTechnicalContactCommunicationNumber": "EDI.SUPPORT6@ANYPAYER.COM",
+                            "PER01_ContactFunctionCode": "BL",
+                            "PER04_PayerContactCommunicationNumber": "8002223336",
+                            "PER05_CommunicationNumberQualifier": "EM",
+                            "PER02_PayerTechnicalContactName": "EDI6",
+                            "PER03_CommunicationNumberQualifier": "TE"
+                        }
+                    ],
+                    "REF_AdditionalPayerIdentification": [
+                        {
+                            "REF02_AdditionalPayerIdentifier": "55555555555555555555555555555555555555555555555555",
+                            "REF01_ReferenceIdentificationQualifier": "2U"
+                        },
+                        {
+                            "REF02_AdditionalPayerIdentifier": "44444444444444444444444444444444444444444444444444",
+                            "REF01_ReferenceIdentificationQualifier": "EO"
+                        },
+                        {
+                            "REF02_AdditionalPayerIdentifier": "33333333333333333333333333333333333333333333333333",
+                            "REF01_ReferenceIdentificationQualifier": "HI"
+                        },
+                        {
+                            "REF02_AdditionalPayerIdentifier": "22222222222222222222222222222222222222222222222222",
+                            "REF01_ReferenceIdentificationQualifier": "NF"
+                        }
+                    ],
+                    "N4_PayerCityStateZIPCode": {
+                        "N401_PayerCityName": "SAIGON",
+                        "N403_PayerPostalZoneOrZIPCode": "45209",
+                        "N404_CountryCode": "VN",
+                        "N407_CountrySubdivisionCode": "D1"
+                    },
+                    "PER_PayerWEBSite": {
+                        "PER04_CommunicationNumber": "www.anyhealthplan.com/policies.html",
+                        "PER01_ContactFunctionCode": "IC",
+                        "PER03_CommunicationNumberQualifier": "UR"
+                    },
+                    "N3_PayerAddress": {
+                        "N302_PayerAddressLine": "STE 101",
+                        "N301_PayerAddressLine": "1 WALK THIS WAY"
+                    },
+                    "PER_PayerBusinessContactInformation": {
+                        "PER02_PayerContactName": "MICHAEL JORDAN",
+                        "PER01_ContactFunctionCode": "CX",
+                        "PER04_PayerContactCommunicationNumber": "8661112222",
+                        "PER05_CommunicationNumberQualifier": "EM",
+                        "PER06_PayerContactCommunicationNumber": "MJORDAN@YAHOO.COM",
+                        "PER08_PayerContactCommunicationNumber": "866",
+                        "PER03_CommunicationNumberQualifier": "TE",
+                        "PER07_CommunicationNumberQualifier": "EX"
+                    },
+                    "N1_PayerIdentification": {
+                        "N103_IdentificationCodeQualifier": "XV",
+                        "N101_EntityIdentifierCode": "PR",
+                        "N102_PayerName": "ANY PLAN USA",
+                        "N104_PayerIdentifier": "55558888122000"
+                    }
+                },
+                "REF_ReceiverIdentification": {
+                    "REF02_ReceiverIdentifier": "20000000000000000000000000000000000000000000000002",
+                    "REF01_ReferenceIdentificationQualifier": "EV"
+                },
+                "REF_VersionIdentification": {
+                    "REF02_VersionIdentificationCode": "LUMINXV8.1025",
+                    "REF01_ReferenceIdentificationQualifier": "F2"
+                },
+                "1000B_Loop": {
+                    "RDM_RemittanceDeliveryMethod": {
+                        "RDM01_ReportTransmissionCode": "EM",
+                        "RDM02_Name": "PSCHIATRIC DEPARTMENT",
+                        "RDM03_CommunicationNumber": "PSYCH-DEP@MSMH.ORG"
+                    },
+                    "N3_PayeeAddress": {
+                        "N301_PayeeAddressLine": "2255 ANY ROAD",
+                        "N302_PayeeAddressLine": "STE 502"
+                    },
+                    "N4_PayeeCityStateZIPCode": {
+                        "N403_PayeePostalZoneOrZIPCode": "12211",
+                        "N402_PayeeStateCode": "CA",
+                        "N404_CountryCode": "USA",
+                        "N401_PayeeCityName": "LOS ANGELES"
+                    },
+                    "REF_PayeeAdditionalIdentification": [
+                        {
+                            "REF02_AdditionalPayeeIdentifier": "123456789",
+                            "REF01_ReferenceIdentificationQualifier": "TJ"
+                        },
+                        {
+                            "REF02_AdditionalPayeeIdentifier": "CA123456789",
+                            "REF01_ReferenceIdentificationQualifier": "0B"
+                        },
+                        {
+                            "REF02_AdditionalPayeeIdentifier": "55-698-2245",
+                            "REF01_ReferenceIdentificationQualifier": "PQ"
+                        },
+                        {
+                            "REF02_AdditionalPayeeIdentifier": "PH5000545",
+                            "REF01_ReferenceIdentificationQualifier": "D3"
+                        }
+                    ],
+                    "N1_PayeeIdentification": {
+                        "N103_IdentificationCodeQualifier": "XX",
+                        "N104_PayeeIdentificationCode": "1123454567",
+                        "N101_EntityIdentifierCode": "PE",
+                        "N102_PayeeName": "MID-STATE MENTAL HOSPITAL"
+                    }
+                },
+                "CUR_ForeignCurrencyInformation": {
+                    "CUR01_EntityIdentifierCode": "PR",
+                    "CUR02_CurrencyCode": "VND"
+                },
+                "BPR_FinancialInformation": {
+                    "BPR09_SenderBankAccountNumber": "5353250570",
+                    "BPR13_ReceiverOrProviderBankIDNumber": "2000287",
+                    "BPR02_TotalActualProviderPaymentAmount": 120.03,
+                    "BPR16_CheckIssueOrEFTEffectiveDate": "2019-08-16T00:00:00Z",
+                    "BPR05_PaymentFormatCode": "CCP",
+                    "BPR06_DepositoryFinancialInstitutionDFIIdentificationNumberQualifier": "01",
+                    "BPR12_DepositoryFinancialInstitutionDFIIdentificationNumberQualifier": "04",
+                    "BPR03_CreditOrDebitFlagCode": "C",
+                    "BPR11_OriginatingCompanySupplementalCode": "123456789",
+                    "BPR14_AccountNumberQualifier": "SG",
+                    "BPR10_PayerIdentifier": "1111234455",
+                    "BPR07_SenderDFIIdentifier": "1000187",
+                    "BPR01_TransactionHandlingCode": "I",
+                    "BPR15_ReceiverOrProviderAccountNumber": "5959250590",
+                    "BPR04_PaymentMethodCode": "ACH",
+                    "BPR08_AccountNumberQualifier": "DA"
+                },
+                "DTM_ProductionDate": {
+                    "DTM01_DateTimeQualifier": "405",
+                    "DTM02_ProductionDate": "2019-08-27T00:00:00Z"
+                },
+                "TRN_ReassociationTraceNumber": {
+                    "TRN04_OriginatingCompanySupplementalCode": "123456789",
+                    "TRN03_PayerIdentifier": "1234567891",
+                    "TRN01_TraceTypeCode": "1",
+                    "TRN02_CheckOrEFTTraceNumber": "10000000000000000000000000000000000000000000000001"
+                }
+            },
+            "SetTrailer": {
+                "SE02": "8350835",
+                "SE01": 165
+            },
+            "Summary": {
+                "PLB_ProviderAdjustment": [
+                    {
+                        "PLB05_AdjustmentIdentifier": {
+                            "PLB01_AdjustmentReasonCode": "CW",
+                            "PLB02_ProviderAdjustmentIdentifier": "9876512"
+                        },
+                        "PLB10_ProviderAdjustmentAmount": -1.24,
+                        "PLB03_AdjustmentIdentifier": {
+                            "PLB01_AdjustmentReasonCode": "CV",
+                            "PLB02_ProviderAdjustmentIdentifier": "9876511"
+                        },
+                        "PLB02_FiscalPeriodDate": "2023-01-30T00:00:00Z",
+                        "PLB09_AdjustmentIdentifier": {
+                            "PLB01_AdjustmentReasonCode": "CS",
+                            "PLB02_ProviderAdjustmentIdentifier": "9876514"
+                        },
+                        "PLB11_AdjustmentIdentifier": {
+                            "PLB01_AdjustmentReasonCode": "C5",
+                            "PLB02_ProviderAdjustmentIdentifier": "9876515"
+                        },
+                        "PLB01_ProviderIdentifier": "1234567890",
+                        "PLB08_ProviderAdjustmentAmount": -1.23,
+                        "PLB12_ProviderAdjustmentAmount": -1.25,
+                        "PLB04_ProviderAdjustmentAmount": -1.21,
+                        "PLB06_ProviderAdjustmentAmount": -1.22,
+                        "PLB07_AdjustmentIdentifier": {
+                            "PLB01_AdjustmentReasonCode": "CT",
+                            "PLB02_ProviderAdjustmentIdentifier": "9876513"
+                        }
+                    },
+                    {
+                        "PLB05_AdjustmentIdentifier": {
+                            "PLB01_AdjustmentReasonCode": "CW",
+                            "PLB02_ProviderAdjustmentIdentifier": "9876512"
+                        },
+                        "PLB10_ProviderAdjustmentAmount": -2.24,
+                        "PLB03_AdjustmentIdentifier": {
+                            "PLB01_AdjustmentReasonCode": "CV",
+                            "PLB02_ProviderAdjustmentIdentifier": "9876512"
+                        },
+                        "PLB02_FiscalPeriodDate": "2023-06-30T00:00:00Z",
+                        "PLB09_AdjustmentIdentifier": {
+                            "PLB01_AdjustmentReasonCode": "CS",
+                            "PLB02_ProviderAdjustmentIdentifier": "9876514"
+                        },
+                        "PLB11_AdjustmentIdentifier": {
+                            "PLB01_AdjustmentReasonCode": "C5",
+                            "PLB02_ProviderAdjustmentIdentifier": "9876515"
+                        },
+                        "PLB01_ProviderIdentifier": "1234567892",
+                        "PLB08_ProviderAdjustmentAmount": -2.23,
+                        "PLB12_ProviderAdjustmentAmount": -2.25,
+                        "PLB04_ProviderAdjustmentAmount": -2.21,
+                        "PLB06_ProviderAdjustmentAmount": -2.22,
+                        "PLB07_AdjustmentIdentifier": {
+                            "PLB01_AdjustmentReasonCode": "CT",
+                            "PLB02_ProviderAdjustmentIdentifier": "9876513"
+                        }
+                    },
+                    {
+                        "PLB05_AdjustmentIdentifier": {
+                            "PLB01_AdjustmentReasonCode": "CW",
+                            "PLB02_ProviderAdjustmentIdentifier": "9876513"
+                        },
+                        "PLB10_ProviderAdjustmentAmount": -3.24,
+                        "PLB03_AdjustmentIdentifier": {
+                            "PLB01_AdjustmentReasonCode": "CV",
+                            "PLB02_ProviderAdjustmentIdentifier": "9876513"
+                        },
+                        "PLB02_FiscalPeriodDate": "2023-03-30T00:00:00Z",
+                        "PLB09_AdjustmentIdentifier": {
+                            "PLB01_AdjustmentReasonCode": "CS",
+                            "PLB02_ProviderAdjustmentIdentifier": "9876514"
+                        },
+                        "PLB11_AdjustmentIdentifier": {
+                            "PLB01_AdjustmentReasonCode": "C5",
+                            "PLB02_ProviderAdjustmentIdentifier": "9876515"
+                        },
+                        "PLB01_ProviderIdentifier": "1234567893",
+                        "PLB08_ProviderAdjustmentAmount": -3.23,
+                        "PLB12_ProviderAdjustmentAmount": -3.25,
+                        "PLB04_ProviderAdjustmentAmount": -3.21,
+                        "PLB06_ProviderAdjustmentAmount": -3.22,
+                        "PLB07_AdjustmentIdentifier": {
+                            "PLB01_AdjustmentReasonCode": "CT",
+                            "PLB02_ProviderAdjustmentIdentifier": "9876513"
+                        }
+                    },
+                    {
+                        "PLB05_AdjustmentIdentifier": {
+                            "PLB01_AdjustmentReasonCode": "CW",
+                            "PLB02_ProviderAdjustmentIdentifier": "9876512"
+                        },
+                        "PLB10_ProviderAdjustmentAmount": -4.24,
+                        "PLB03_AdjustmentIdentifier": {
+                            "PLB01_AdjustmentReasonCode": "CV",
+                            "PLB02_ProviderAdjustmentIdentifier": "9876514"
+                        },
+                        "PLB02_FiscalPeriodDate": "2023-04-30T00:00:00Z",
+                        "PLB09_AdjustmentIdentifier": {
+                            "PLB01_AdjustmentReasonCode": "CS",
+                            "PLB02_ProviderAdjustmentIdentifier": "9876514"
+                        },
+                        "PLB11_AdjustmentIdentifier": {
+                            "PLB01_AdjustmentReasonCode": "C5",
+                            "PLB02_ProviderAdjustmentIdentifier": "9876515"
+                        },
+                        "PLB01_ProviderIdentifier": "1234567894",
+                        "PLB08_ProviderAdjustmentAmount": -4.23,
+                        "PLB12_ProviderAdjustmentAmount": -4.25,
+                        "PLB04_ProviderAdjustmentAmount": -4.21,
+                        "PLB06_ProviderAdjustmentAmount": -4.22,
+                        "PLB07_AdjustmentIdentifier": {
+                            "PLB01_AdjustmentReasonCode": "CT",
+                            "PLB02_ProviderAdjustmentIdentifier": "9876513"
+                        }
+                    },
+                    {
+                        "PLB05_AdjustmentIdentifier": {
+                            "PLB01_AdjustmentReasonCode": "CW",
+                            "PLB02_ProviderAdjustmentIdentifier": "9876512"
+                        },
+                        "PLB10_ProviderAdjustmentAmount": -5.24,
+                        "PLB03_AdjustmentIdentifier": {
+                            "PLB01_AdjustmentReasonCode": "CV",
+                            "PLB02_ProviderAdjustmentIdentifier": "9876511"
+                        },
+                        "PLB02_FiscalPeriodDate": "2023-05-30T00:00:00Z",
+                        "PLB09_AdjustmentIdentifier": {
+                            "PLB01_AdjustmentReasonCode": "CS",
+                            "PLB02_ProviderAdjustmentIdentifier": "9876514"
+                        },
+                        "PLB11_AdjustmentIdentifier": {
+                            "PLB01_AdjustmentReasonCode": "C5",
+                            "PLB02_ProviderAdjustmentIdentifier": "9876515"
+                        },
+                        "PLB01_ProviderIdentifier": "1234567895",
+                        "PLB08_ProviderAdjustmentAmount": -5.23,
+                        "PLB12_ProviderAdjustmentAmount": -5.25,
+                        "PLB04_ProviderAdjustmentAmount": -5.21,
+                        "PLB06_ProviderAdjustmentAmount": -5.22,
+                        "PLB07_AdjustmentIdentifier": {
+                            "PLB01_AdjustmentReasonCode": "CT",
+                            "PLB02_ProviderAdjustmentIdentifier": "9876513"
+                        }
+                    }
+                ]
+            },
+            "Id": "835",
+            "SetHeader": {
+                "ST01": "835",
+                "ST02": "8350835"
+            },
+            "Detail": {
+                "2000_Loop": [
+                    {
+                        "LX_HeaderNumber": {
+                            "LX01_AssignedNumber": 1
+                        },
+                        "TS3_ProviderSummaryInformation": {
+                            "TS323_TotalPIPClaimCount": 35,
+                            "TS302_FacilityTypeCode": "99",
+                            "TS301_ProviderIdentifier": "99999999999999999999999999993333333333333333333333",
+                            "TS321_TotalMSPPatientLiabilityMetAmount": 90000.95,
+                            "TS322_TotalPatientReimbursementAmount": 1000.15,
+                            "TS305_TotalClaimChargeAmount": 155,
+                            "TS318_TotalHCPCSPayableAmount": 70000000.75,
+                            "TS313_TotalMSPPayerAmount": 500000000000000000,
+                            "TS304_TotalClaimCount": 1,
+                            "TS320_TotalProfessionalComponentAmount": 800000.85,
+                            "TS315_TotalNonLabChargeAmount": 69.99,
+                            "TS303_FiscalPeriodDate": "2018-12-15T00:00:00Z",
+                            "TS317_TotalHCPCSReportedChargeAmount": 7000000000.75,
+                            "TS324_TotalPIPAdjustmentAmount": 200.25
+                        },
+                        "TS2_ProviderSupplementalSummaryInformation": {
+                            "TS219_TotalPPSDSHDRGAmount": 400000,
+                            "TS206_TotalIndirectMedicalEducationAmount": 1000,
+                            "TS214_TotalNoncoveredDayCount": 50,
+                            "TS210_AverageDRGLengthOfStay": 90,
+                            "TS203_TotalHospitalSpecificAmount": 4000.50,
+                            "TS216_AverageDRGWeight": 200.25,
+                            "TS205_TotalCapitalAmount": 523234898833,
+                            "TS217_TotalPPSCapitalFSPDRGAmount": 8500000,
+                            "TS202_TotalFederalSpecificAmount": 55375.77,
+                            "TS207_TotalOutlierDayCount": 30,
+                            "TS208_TotalDayOutlierAmount": 5500,
+                            "TS209_TotalCostOutlierAmount": 2000000,
+                            "TS204_TotalDisproportionateShareAmount": 80.25,
+                            "TS215_TotalMSPPassThroughAmount": 1000,
+                            "TS212_TotalCostReportDayCount": 90,
+                            "TS211_TotalDischargeCount": 50,
+                            "TS213_TotalCoveredDayCount": 90,
+                            "TS201_TotalDRGAmount": 59786,
+                            "TS218_TotalPPSCapitalHSPDRGAmount": 7500000
+                        },
+                        "2100_Loop": [
+                            {
+                                "NM1_CrossoverCarrierName": {
+                                    "NM103_CrossoverCarrierName": "YOUR COB CARRIER LLC",
+                                    "NM101_EntityIdentifierCode": "TT",
+                                    "NM102_EntityTypeQualifier": "2",
+                                    "NM108_IdentificationCodeQualifier": "FI",
+                                    "NM109_CrossoverCarrierIdentifier": "804441103"
+                                },
+                                "NM1_CorrectedPatientInsuredName": {
+                                    "NM103_CorrectedPatientOrInsuredLastName": "MASTERS",
+                                    "NM101_EntityIdentifierCode": "74",
+                                    "NM102_EntityTypeQualifier": "1",
+                                    "NM104_CorrectedPatientOrInsuredFirstName": "MARVIN",
+                                    "NM108_IdentificationCodeQualifier": "C",
+                                    "NM109_CorrectedInsuredIdentificationIndicator": "80444444401"
+                                },
+                                "AMT_ClaimSupplementalInformation": [
+                                    {
+                                        "AMT02_ClaimSupplementalInformationAmount": 10000.85,
+                                        "AMT01_AmountQualifierCode": "AU"
+                                    },
+                                    {
+                                        "AMT02_ClaimSupplementalInformationAmount": 20000.85,
+                                        "AMT01_AmountQualifierCode": "D8"
+                                    },
+                                    {
+                                        "AMT02_ClaimSupplementalInformationAmount": 30000.85,
+                                        "AMT01_AmountQualifierCode": "F5"
+                                    },
+                                    {
+                                        "AMT02_ClaimSupplementalInformationAmount": 40000.85,
+                                        "AMT01_AmountQualifierCode": "I"
+                                    },
+                                    {
+                                        "AMT02_ClaimSupplementalInformationAmount": 50000.85,
+                                        "AMT01_AmountQualifierCode": "NL"
+                                    },
+                                    {
+                                        "AMT02_ClaimSupplementalInformationAmount": 60000.85,
+                                        "AMT01_AmountQualifierCode": "T"
+                                    },
+                                    {
+                                        "AMT02_ClaimSupplementalInformationAmount": 70000.85,
+                                        "AMT01_AmountQualifierCode": "T2"
+                                    },
+                                    {
+                                        "AMT02_ClaimSupplementalInformationAmount": 80000.85,
+                                        "AMT01_AmountQualifierCode": "ZK"
+                                    },
+                                    {
+                                        "AMT02_ClaimSupplementalInformationAmount": 90000.85,
+                                        "AMT01_AmountQualifierCode": "ZL"
+                                    },
+                                    {
+                                        "AMT02_ClaimSupplementalInformationAmount": 11000.85,
+                                        "AMT01_AmountQualifierCode": "ZM"
+                                    },
+                                    {
+                                        "AMT02_ClaimSupplementalInformationAmount": 12000.85,
+                                        "AMT01_AmountQualifierCode": "ZN"
+                                    },
+                                    {
+                                        "AMT02_ClaimSupplementalInformationAmount": 13000.85,
+                                        "AMT01_AmountQualifierCode": "ZO"
+                                    },
+                                    {
+                                        "AMT02_ClaimSupplementalInformationAmount": 14000.85,
+                                        "AMT01_AmountQualifierCode": "DY"
+                                    }
+                                ],
+                                "CLP_ClaimPaymentInformation": {
+                                    "CLP06_ClaimFilingIndicatorCode": "13",
+                                    "CLP12_DiagnosisRelatedGroupDRGWeight": 12.25,
+                                    "CLP08_FacilityTypeCode": "11",
+                                    "CLP04_ClaimPaymentAmount": 120.04,
+                                    "CLP13_DischargeFraction": 0.8575,
+                                    "CLP03_TotalClaimChargeAmount": 155,
+                                    "CLP01_PatientControlNumber": "04111196PLC777122",
+                                    "CLP02_ClaimStatusCode": "1",
+                                    "CLP09_ClaimFrequencyCode": "1",
+                                    "CLP07_PayerClaimControlNumber": "8838888212",
+                                    "CLP11_DiagnosisRelatedGroupDRGCode": "D045"
+                                },
+                                "NM1_InsuredName": {
+                                    "NM109_SubscriberIdentifier": "80444444403",
+                                    "NM101_EntityIdentifierCode": "IL",
+                                    "NM102_EntityTypeQualifier": "1",
+                                    "NM108_IdentificationCodeQualifier": "MI",
+                                    "NM104_SubscriberFirstName": "MABEL",
+                                    "NM103_SubscriberLastName": "CABLE"
+                                },
+                                "REF_RenderingProviderIdentification": [
+                                    {
+                                        "REF01_ReferenceIdentificationQualifier": "0B",
+                                        "REF02_RenderingProviderSecondaryIdentifier": "0B111111111111111111111111111111111111111111111111"
+                                    },
+                                    {
+                                        "REF01_ReferenceIdentificationQualifier": "1A",
+                                        "REF02_RenderingProviderSecondaryIdentifier": "1A111111111111111111111111111111111111111111111111"
+                                    },
+                                    {
+                                        "REF01_ReferenceIdentificationQualifier": "1B",
+                                        "REF02_RenderingProviderSecondaryIdentifier": "1B111111111111111111111111111111111111111111111111"
+                                    },
+                                    {
+                                        "REF01_ReferenceIdentificationQualifier": "1C",
+                                        "REF02_RenderingProviderSecondaryIdentifier": "1C111111111111111111111111111111111111111111111111"
+                                    },
+                                    {
+                                        "REF01_ReferenceIdentificationQualifier": "1D",
+                                        "REF02_RenderingProviderSecondaryIdentifier": "1D111111111111111111111111111111111111111111111111"
+                                    },
+                                    {
+                                        "REF01_ReferenceIdentificationQualifier": "1G",
+                                        "REF02_RenderingProviderSecondaryIdentifier": "1G111111111111111111111111111111111111111111111111"
+                                    },
+                                    {
+                                        "REF01_ReferenceIdentificationQualifier": "1H",
+                                        "REF02_RenderingProviderSecondaryIdentifier": "1H111111111111111111111111111111111111111111111111"
+                                    },
+                                    {
+                                        "REF01_ReferenceIdentificationQualifier": "1J",
+                                        "REF02_RenderingProviderSecondaryIdentifier": "1J111111111111111111111111111111111111111111111111"
+                                    },
+                                    {
+                                        "REF01_ReferenceIdentificationQualifier": "D3",
+                                        "REF02_RenderingProviderSecondaryIdentifier": "D3111111111111111111111111111111111111111111111111"
+                                    },
+                                    {
+                                        "REF01_ReferenceIdentificationQualifier": "LU",
+                                        "REF02_RenderingProviderSecondaryIdentifier": "LU111111111111111111111111111111111111111111111111"
+                                    }
+                                ],
+                                "NM1_PatientName": {
+                                    "NM104_PatientFirstName": "MARVIN",
+                                    "NM109_PatientIdentifier": "80444444403",
+                                    "NM107_PatientNameSuffix": "SR",
+                                    "NM101_EntityIdentifierCode": "QC",
+                                    "NM102_EntityTypeQualifier": "1",
+                                    "NM103_PatientLastName": "MASTERS",
+                                    "NM108_IdentificationCodeQualifier": "MI",
+                                    "NM105_PatientMiddleNameOrInitial": "L"
+                                },
+                                "QTY_ClaimSupplementalInformationQuantity": [
+                                    {
+                                        "QTY01_QuantityQualifier": "CA",
+                                        "QTY02_ClaimSupplementalInformationQuantity": 1
+                                    },
+                                    {
+                                        "QTY01_QuantityQualifier": "CD",
+                                        "QTY02_ClaimSupplementalInformationQuantity": 2
+                                    },
+                                    {
+                                        "QTY01_QuantityQualifier": "LA",
+                                        "QTY02_ClaimSupplementalInformationQuantity": 3
+                                    },
+                                    {
+                                        "QTY01_QuantityQualifier": "LE",
+                                        "QTY02_ClaimSupplementalInformationQuantity": 4
+                                    },
+                                    {
+                                        "QTY01_QuantityQualifier": "NE",
+                                        "QTY02_ClaimSupplementalInformationQuantity": 5
+                                    },
+                                    {
+                                        "QTY01_QuantityQualifier": "NR",
+                                        "QTY02_ClaimSupplementalInformationQuantity": 6
+                                    },
+                                    {
+                                        "QTY01_QuantityQualifier": "OU",
+                                        "QTY02_ClaimSupplementalInformationQuantity": 7
+                                    },
+                                    {
+                                        "QTY01_QuantityQualifier": "PS",
+                                        "QTY02_ClaimSupplementalInformationQuantity": 8
+                                    },
+                                    {
+                                        "QTY01_QuantityQualifier": "VS",
+                                        "QTY02_ClaimSupplementalInformationQuantity": 9
+                                    },
+                                    {
+                                        "QTY01_QuantityQualifier": "ZK",
+                                        "QTY02_ClaimSupplementalInformationQuantity": 10
+                                    },
+                                    {
+                                        "QTY01_QuantityQualifier": "ZL",
+                                        "QTY02_ClaimSupplementalInformationQuantity": 11
+                                    },
+                                    {
+                                        "QTY01_QuantityQualifier": "ZM",
+                                        "QTY02_ClaimSupplementalInformationQuantity": 12
+                                    },
+                                    {
+                                        "QTY01_QuantityQualifier": "ZN",
+                                        "QTY02_ClaimSupplementalInformationQuantity": 13
+                                    },
+                                    {
+                                        "QTY01_QuantityQualifier": "ZO",
+                                        "QTY02_ClaimSupplementalInformationQuantity": 14
+                                    }
+                                ],
+                                "DTM_StatementFromOrToDate": [
+                                    {
+                                        "DTM01_DateTimeQualifier": "232",
+                                        "DTM02_ClaimDate": "2017-11-14T00:00:00Z"
+                                    },
+                                    {
+                                        "DTM01_DateTimeQualifier": "233",
+                                        "DTM02_ClaimDate": "2018-11-14T00:00:00Z"
+                                    }
+                                ],
+                                "DTM_CoverageExpirationDate": {
+                                    "DTM01_DateTimeQualifier": "036",
+                                    "DTM02_Date": "2018-11-19T00:00:00Z"
+                                },
+                                "NM1_CorrectedPriorityPayerName": {
+                                    "NM101_EntityIdentifierCode": "PR",
+                                    "NM102_EntityTypeQualifier": "2",
+                                    "NM108_IdentificationCodeQualifier": "XV",
+                                    "NM109_CorrectedPriorityPayerIdentificationNumber": "123456789",
+                                    "NM103_CorrectedPriorityPayerName": "ACME INSURANCE"
+                                },
+                                "2110_Loop": [
+                                    {
+                                        "REF_LineItemControlNumber": {
+                                            "REF01_ReferenceIdentificationQualifier": "6R",
+                                            "REF02_LineItemControlNumber": "LU111111111111111111111111111111111111111111111112"
+                                        },
+                                        "REF_RenderingProviderInformation": [
+                                            {
+                                                "REF02_RenderingProviderIdentifier": "0B111111111111111111111111111111111111111111111112",
+                                                "REF01_ReferenceIdentificationQualifier": "0B"
+                                            },
+                                            {
+                                                "REF02_RenderingProviderIdentifier": "1A111111111111111111111111111111111111111111111112",
+                                                "REF01_ReferenceIdentificationQualifier": "1A"
+                                            },
+                                            {
+                                                "REF02_RenderingProviderIdentifier": "1B111111111111111111111111111111111111111111111112",
+                                                "REF01_ReferenceIdentificationQualifier": "1B"
+                                            },
+                                            {
+                                                "REF02_RenderingProviderIdentifier": "1C111111111111111111111111111111111111111111111112",
+                                                "REF01_ReferenceIdentificationQualifier": "1C"
+                                            },
+                                            {
+                                                "REF02_RenderingProviderIdentifier": "1D111111111111111111111111111111111111111111111112",
+                                                "REF01_ReferenceIdentificationQualifier": "1D"
+                                            },
+                                            {
+                                                "REF02_RenderingProviderIdentifier": "1G111111111111111111111111111111111111111111111112",
+                                                "REF01_ReferenceIdentificationQualifier": "1G"
+                                            },
+                                            {
+                                                "REF02_RenderingProviderIdentifier": "1H111111111111111111111111111111111111111111111112",
+                                                "REF01_ReferenceIdentificationQualifier": "1H"
+                                            },
+                                            {
+                                                "REF02_RenderingProviderIdentifier": "1J111111111111111111111111111111111111111111111112",
+                                                "REF01_ReferenceIdentificationQualifier": "1J"
+                                            },
+                                            {
+                                                "REF02_RenderingProviderIdentifier": "D3111111111111111111111111111111111111111111111112",
+                                                "REF01_ReferenceIdentificationQualifier": "D3"
+                                            },
+                                            {
+                                                "REF02_RenderingProviderIdentifier": "D3111111111111111111111111111111111111111111111112",
+                                                "REF01_ReferenceIdentificationQualifier": "TJ"
+                                            }
+                                        ],
+                                        "DTM_ServiceDate": [
+                                            {
+                                                "DTM01_DateTimeQualifier": "150",
+                                                "DTM02_ServiceDate": "2018-11-14T00:00:00Z"
+                                            },
+                                            {
+                                                "DTM01_DateTimeQualifier": "151",
+                                                "DTM02_ServiceDate": "2018-11-15T00:00:00Z"
+                                            }
+                                        ],
+                                        "REF_HealthCarePolicyIdentification": [
+                                            {
+                                                "REF01_ReferenceIdentificationQualifier": "0K",
+                                                "REF02_HealthcarePolicyIdentification": "L12345678910"
+                                            },
+                                            {
+                                                "REF01_ReferenceIdentificationQualifier": "0K",
+                                                "REF02_HealthcarePolicyIdentification": "L12345678911"
+                                            },
+                                            {
+                                                "REF01_ReferenceIdentificationQualifier": "0K",
+                                                "REF02_HealthcarePolicyIdentification": "L12345678912"
+                                            },
+                                            {
+                                                "REF01_ReferenceIdentificationQualifier": "0K",
+                                                "REF02_HealthcarePolicyIdentification": "L12345678913"
+                                            },
+                                            {
+                                                "REF01_ReferenceIdentificationQualifier": "0K",
+                                                "REF02_HealthcarePolicyIdentification": "L12345678914"
+                                            }
+                                        ],
+                                        "SVC_ServicePaymentInformation": {
+                                            "SVC04_NationalUniformBillingCommitteeRevenueCode": "NBC502",
+                                            "SVC05_UnitsOfServicePaidCount": 1,
+                                            "SVC02_LineItemChargeAmount": 155,
+                                            "SVC01_CompositeMedicalProcedureIdentifier": {
+                                                "SVC04_ProcedureModifier": "56",
+                                                "SVC06_ProcedureModifier": "85",
+                                                "SVC05_ProcedureModifier": "22",
+                                                "SVC01_ProductOrServiceIDQualifier": "HC",
+                                                "SVC02_AdjudicatedProcedureCode": "99393",
+                                                "SVC03_ProcedureModifier": "45"
+                                            },
+                                            "SVC03_LineItemProviderPaymentAmount": 120.03,
+                                            "SVC06_CompositeMedicalProcedureIdentifier": {
+                                                "SVC04_ProcedureModifier": "54",
+                                                "SVC06_ProcedureModifier": "84",
+                                                "SVC05_ProcedureModifier": "24",
+                                                "SVC02_ProcedureCode": "99391",
+                                                "SVC01_ProductOrServiceIDQualifier": "HC",
+                                                "SVC07_ProcedureCodeDescription": "COVID 19 VACCINE MODERNA 1.25 MG",
+                                                "SVC03_ProcedureModifier": "44"
+                                            }
+                                        },
+                                        "REF_ServiceIdentification": [
+                                            {
+                                                "REF01_ReferenceIdentificationQualifier": "1S",
+                                                "REF02_ProviderIdentifier": "1S111111111111111111111111111111111111111111111112"
+                                            },
+                                            {
+                                                "REF01_ReferenceIdentificationQualifier": "APC",
+                                                "REF02_ProviderIdentifier": "APC11111111111111111111111111111111111111111111112"
+                                            },
+                                            {
+                                                "REF01_ReferenceIdentificationQualifier": "BB",
+                                                "REF02_ProviderIdentifier": "BB111111111111111111111111111111111111111111111112"
+                                            },
+                                            {
+                                                "REF01_ReferenceIdentificationQualifier": "E9",
+                                                "REF02_ProviderIdentifier": "E9111111111111111111111111111111111111111111111112"
+                                            },
+                                            {
+                                                "REF01_ReferenceIdentificationQualifier": "G1",
+                                                "REF02_ProviderIdentifier": "G1111111111111111111111111111111111111111111111112"
+                                            },
+                                            {
+                                                "REF01_ReferenceIdentificationQualifier": "G3",
+                                                "REF02_ProviderIdentifier": "G3111111111111111111111111111111111111111111111112"
+                                            },
+                                            {
+                                                "REF01_ReferenceIdentificationQualifier": "LU",
+                                                "REF02_ProviderIdentifier": "LU111111111111111111111111111111111111111111111112"
+                                            },
+                                            {
+                                                "REF01_ReferenceIdentificationQualifier": "RB",
+                                                "REF02_ProviderIdentifier": "LU111111111111111111111111111111111111111111111112"
+                                            }
+                                        ],
+                                        "QTY_ServiceSupplementalQuantity": [
+                                            {
+                                                "QTY01_QuantityQualifier": "ZK",
+                                                "QTY02_ServiceSupplementalQuantityCount": 1.75
+                                            },
+                                            {
+                                                "QTY01_QuantityQualifier": "ZL",
+                                                "QTY02_ServiceSupplementalQuantityCount": 2.75
+                                            },
+                                            {
+                                                "QTY01_QuantityQualifier": "ZM",
+                                                "QTY02_ServiceSupplementalQuantityCount": 3.75
+                                            },
+                                            {
+                                                "QTY01_QuantityQualifier": "ZN",
+                                                "QTY02_ServiceSupplementalQuantityCount": 4.75
+                                            },
+                                            {
+                                                "QTY01_QuantityQualifier": "ZO",
+                                                "QTY02_ServiceSupplementalQuantityCount": 5.75
+                                            },
+                                            {
+                                                "QTY01_QuantityQualifier": "ZL",
+                                                "QTY02_ServiceSupplementalQuantityCount": 6.75
+                                            }
+                                        ],
+                                        "CAS_ServiceAdjustment": [
+                                            {
+                                                "CAS01_ClaimAdjustmentGroupCode": "PR",
+                                                "CAS03_AdjustmentAmount": 11,
+                                                "CAS02_AdjustmentReasonCode": "45"
+                                            },
+                                            {
+                                                "CAS01_ClaimAdjustmentGroupCode": "OA",
+                                                "CAS03_AdjustmentAmount": 34.91,
+                                                "CAS02_AdjustmentReasonCode": "97"
+                                            },
+                                            {
+                                                "CAS12_AdjustmentAmount": 1001.10,
+                                                "CAS14_AdjustmentReasonCode": "49",
+                                                "CAS09_AdjustmentAmount": 1000.10,
+                                                "CAS06_AdjustmentAmount": 123445678912345,
+                                                "CAS08_AdjustmentReasonCode": "47",
+                                                "CAS15_AdjustmentAmount": 100,
+                                                "CAS02_AdjustmentReasonCode": "45",
+                                                "CAS19_AdjustmentQuantity": 1,
+                                                "CAS01_ClaimAdjustmentGroupCode": "CO",
+                                                "CAS18_AdjustmentAmount": 21,
+                                                "CAS17_AdjustmentReasonCode": "51",
+                                                "CAS04_AdjustmentQuantity": 1,
+                                                "CAS07_AdjustmentQuantity": 2,
+                                                "CAS16_AdjustmentQuantity": 31,
+                                                "CAS05_AdjustmentReasonCode": "41",
+                                                "CAS10_AdjustmentQuantity": 541,
+                                                "CAS03_AdjustmentAmount": 34.11,
+                                                "CAS11_AdjustmentReasonCode": "48",
+                                                "CAS13_AdjustmentQuantity": 1
+                                            },
+                                            {
+                                                "CAS12_AdjustmentAmount": 1002.10,
+                                                "CAS14_AdjustmentReasonCode": "49",
+                                                "CAS09_AdjustmentAmount": 1002.10,
+                                                "CAS06_AdjustmentAmount": 123445678912322,
+                                                "CAS08_AdjustmentReasonCode": "47",
+                                                "CAS15_AdjustmentAmount": 200,
+                                                "CAS02_AdjustmentReasonCode": "46",
+                                                "CAS19_AdjustmentQuantity": 2,
+                                                "CAS01_ClaimAdjustmentGroupCode": "CO",
+                                                "CAS18_AdjustmentAmount": 22,
+                                                "CAS17_AdjustmentReasonCode": "52",
+                                                "CAS04_AdjustmentQuantity": 1,
+                                                "CAS07_AdjustmentQuantity": 2,
+                                                "CAS16_AdjustmentQuantity": 32,
+                                                "CAS05_AdjustmentReasonCode": "41",
+                                                "CAS10_AdjustmentQuantity": 541,
+                                                "CAS03_AdjustmentAmount": 34.12,
+                                                "CAS11_AdjustmentReasonCode": "48",
+                                                "CAS13_AdjustmentQuantity": 2
+                                            },
+                                            {
+                                                "CAS01_ClaimAdjustmentGroupCode": "PI",
+                                                "CAS04_AdjustmentQuantity": 1,
+                                                "CAS03_AdjustmentAmount": 80.51,
+                                                "CAS02_AdjustmentReasonCode": "40"
+                                            }
+                                        ],
+                                        "LQ_HealthCareRemarkCodes": [
+                                            {
+                                                "LQ02_RemarkCode": "12341",
+                                                "LQ01_CodeListQualifierCode": "HE"
+                                            },
+                                            {
+                                                "LQ02_RemarkCode": "67891",
+                                                "LQ01_CodeListQualifierCode": "RX"
+                                            },
+                                            {
+                                                "LQ02_RemarkCode": "12342",
+                                                "LQ01_CodeListQualifierCode": "HE"
+                                            },
+                                            {
+                                                "LQ02_RemarkCode": "67892",
+                                                "LQ01_CodeListQualifierCode": "RX"
+                                            },
+                                            {
+                                                "LQ02_RemarkCode": "12343",
+                                                "LQ01_CodeListQualifierCode": "HE"
+                                            },
+                                            {
+                                                "LQ02_RemarkCode": "67893",
+                                                "LQ01_CodeListQualifierCode": "RX"
+                                            },
+                                            {
+                                                "LQ02_RemarkCode": "12344",
+                                                "LQ01_CodeListQualifierCode": "HE"
+                                            },
+                                            {
+                                                "LQ02_RemarkCode": "67894",
+                                                "LQ01_CodeListQualifierCode": "RX"
+                                            },
+                                            {
+                                                "LQ02_RemarkCode": "12345",
+                                                "LQ01_CodeListQualifierCode": "HE"
+                                            },
+                                            {
+                                                "LQ02_RemarkCode": "67895",
+                                                "LQ01_CodeListQualifierCode": "RX"
+                                            },
+                                            {
+                                                "LQ02_RemarkCode": "12346",
+                                                "LQ01_CodeListQualifierCode": "HE"
+                                            },
+                                            {
+                                                "LQ02_RemarkCode": "67896",
+                                                "LQ01_CodeListQualifierCode": "RX"
+                                            },
+                                            {
+                                                "LQ02_RemarkCode": "12347",
+                                                "LQ01_CodeListQualifierCode": "HE"
+                                            },
+                                            {
+                                                "LQ02_RemarkCode": "67897",
+                                                "LQ01_CodeListQualifierCode": "RX"
+                                            },
+                                            {
+                                                "LQ02_RemarkCode": "12348",
+                                                "LQ01_CodeListQualifierCode": "HE"
+                                            },
+                                            {
+                                                "LQ02_RemarkCode": "67898",
+                                                "LQ01_CodeListQualifierCode": "RX"
+                                            }
+                                        ],
+                                        "AMT_ServiceSupplementalAmount": [
+                                            {
+                                                "AMT02_ServiceSupplementalAmount": 60000.82,
+                                                "AMT01_AmountQualifierCode": "B6"
+                                            },
+                                            {
+                                                "AMT02_ServiceSupplementalAmount": 60000.82,
+                                                "AMT01_AmountQualifierCode": "KH"
+                                            },
+                                            {
+                                                "AMT02_ServiceSupplementalAmount": 60000.82,
+                                                "AMT01_AmountQualifierCode": "T"
+                                            },
+                                            {
+                                                "AMT02_ServiceSupplementalAmount": 70000.82,
+                                                "AMT01_AmountQualifierCode": "T2"
+                                            },
+                                            {
+                                                "AMT02_ServiceSupplementalAmount": 80000.82,
+                                                "AMT01_AmountQualifierCode": "ZK"
+                                            },
+                                            {
+                                                "AMT02_ServiceSupplementalAmount": 90000.82,
+                                                "AMT01_AmountQualifierCode": "ZL"
+                                            },
+                                            {
+                                                "AMT02_ServiceSupplementalAmount": 11000.82,
+                                                "AMT01_AmountQualifierCode": "ZM"
+                                            },
+                                            {
+                                                "AMT02_ServiceSupplementalAmount": 12000.82,
+                                                "AMT01_AmountQualifierCode": "ZN"
+                                            },
+                                            {
+                                                "AMT02_ServiceSupplementalAmount": 13000.82,
+                                                "AMT01_AmountQualifierCode": "ZO"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "DTM_ClaimReceivedDate": {
+                                    "DTM01_DateTimeQualifier": "050",
+                                    "DTM02_Date": "2019-11-19T00:00:00Z"
+                                },
+                                "PER_ClaimContactInformation": [
+                                    {
+                                        "PER04_ClaimContactCommunicationsNumber": "8882223330",
+                                        "PER01_ContactFunctionCode": "CX",
+                                        "PER05_CommunicationNumberQualifier": "EM",
+                                        "PER02_ClaimContactName": "EDIPAYERCLAIM",
+                                        "PER06_ClaimContactCommunicationsNumber": "EDIPAYERCLAIM.SUPPORT@ANYPAYER.COM",
+                                        "PER03_CommunicationNumberQualifier": "TE",
+                                        "PER08_CommunicationNumberExtension": "123",
+                                        "PER07_CommunicationNumberQualifier": "EX"
+                                    },
+                                    {
+                                        "PER04_ClaimContactCommunicationsNumber": "8882223331",
+                                        "PER01_ContactFunctionCode": "CX",
+                                        "PER05_CommunicationNumberQualifier": "EM",
+                                        "PER02_ClaimContactName": "EDIPAYERCLAIM2",
+                                        "PER06_ClaimContactCommunicationsNumber": "EDIPAYERCLAIM2.SUPPORT@ANYPAYER.COM",
+                                        "PER03_CommunicationNumberQualifier": "TE",
+                                        "PER08_CommunicationNumberExtension": "124",
+                                        "PER07_CommunicationNumberQualifier": "EX"
+                                    }
+                                ],
+                                "MOA_OutpatientAdjudicationInformation": {
+                                    "MOA02_ClaimHCPCSPayableAmount": 300,
+                                    "MOA03_ClaimPaymentRemarkCode": "R003",
+                                    "MOA04_ClaimPaymentRemarkCode": "R004",
+                                    "MOA08_ClaimESRDPaymentAmount": 600,
+                                    "MOA01_ReimbursementRate": 0.80,
+                                    "MOA05_ClaimPaymentRemarkCode": "R005",
+                                    "MOA06_ClaimPaymentRemarkCode": "R006",
+                                    "MOA07_ClaimPaymentRemarkCode": "R007",
+                                    "MOA09_NonpayableProfessionalComponentAmount": 50
+                                },
+                                "REF_OtherClaimRelatedIdentification": [
+                                    {
+                                        "REF02_OtherClaimRelatedIdentifier": "28",
+                                        "REF01_ReferenceIdentificationQualifier": "1L"
+                                    },
+                                    {
+                                        "REF02_OtherClaimRelatedIdentifier": "HSOAP-LAOA",
+                                        "REF01_ReferenceIdentificationQualifier": "CE"
+                                    },
+                                    {
+                                        "REF02_OtherClaimRelatedIdentifier": "H0055989233301",
+                                        "REF01_ReferenceIdentificationQualifier": "1W"
+                                    },
+                                    {
+                                        "REF02_OtherClaimRelatedIdentifier": "391809055",
+                                        "REF01_ReferenceIdentificationQualifier": "SY"
+                                    },
+                                    {
+                                        "REF02_OtherClaimRelatedIdentifier": "G98-405-C001235",
+                                        "REF01_ReferenceIdentificationQualifier": "6P"
+                                    }
+                                ],
+                                "MIA_InpatientAdjudicationInformation": {
+                                    "MIA02_PPSOperatingOutlierAmount": 500,
+                                    "MIA08_ClaimPPSCapitalAmount": 80.56,
+                                    "MIA24_PPSCapitalExceptionAmount": 100,
+                                    "MIA01_CoveredDaysOrVisitsCount": 3465,
+                                    "MIA07_ClaimMSPPassThroughAmount": 70.56,
+                                    "MIA17_ClaimPPSCapitalOutlierAmount": 170.56,
+                                    "MIA09_PPSCapitalFSPDRGAmount": 90.56,
+                                    "MIA20_ClaimPaymentRemarkCode": "R020",
+                                    "MIA18_ClaimIndirectTeachingAmount": 180.56,
+                                    "MIA19_NonpayableProfessionalComponentAmount": 190.56,
+                                    "MIA05_ClaimPaymentRemarkCode": "R123",
+                                    "MIA21_ClaimPaymentRemarkCode": "R021",
+                                    "MIA22_ClaimPaymentRemarkCode": "R022",
+                                    "MIA23_ClaimPaymentRemarkCode": "R023",
+                                    "MIA06_ClaimDisproportionateShareAmount": 60.56,
+                                    "MIA13_PPSCapitalIMEAmount": 130.56,
+                                    "MIA15_CostReportDayCount": 1,
+                                    "MIA12_OldCapitalAmount": 120.56,
+                                    "MIA11_PPSCapitalDSHDRGAmount": 110.56,
+                                    "MIA03_LifetimePsychiatricDaysCount": 5,
+                                    "MIA04_ClaimDRGAmount": 60,
+                                    "MIA14_PPSOperatingHospitalSpecificDRGAmount": 140.56,
+                                    "MIA16_PPSOperatingFederalSpecificDRGAmount": 160.56,
+                                    "MIA10_PPSCapitalHSPDRGAmount": 100.56
+                                },
+                                "CAS_ClaimAdjustment": [
+                                    {
+                                        "CAS12_AdjustmentAmount": 1000.80,
+                                        "CAS14_AdjustmentReasonCode": "49",
+                                        "CAS09_AdjustmentAmount": 1000.80,
+                                        "CAS06_AdjustmentAmount": 123445678912345,
+                                        "CAS08_AdjustmentReasonCode": "47",
+                                        "CAS15_AdjustmentAmount": 500,
+                                        "CAS02_AdjustmentReasonCode": "45",
+                                        "CAS19_AdjustmentQuantity": 1,
+                                        "CAS01_ClaimAdjustmentGroupCode": "CO",
+                                        "CAS18_AdjustmentAmount": 20,
+                                        "CAS17_AdjustmentReasonCode": "50",
+                                        "CAS04_AdjustmentQuantity": 1,
+                                        "CAS07_AdjustmentQuantity": 2,
+                                        "CAS16_AdjustmentQuantity": 3,
+                                        "CAS05_AdjustmentReasonCode": "46",
+                                        "CAS10_AdjustmentQuantity": 548,
+                                        "CAS03_AdjustmentAmount": 34.97,
+                                        "CAS11_AdjustmentReasonCode": "48",
+                                        "CAS13_AdjustmentQuantity": 1
+                                    },
+                                    {
+                                        "CAS01_ClaimAdjustmentGroupCode": "CO",
+                                        "CAS04_AdjustmentQuantity": 1,
+                                        "CAS03_AdjustmentAmount": 80.55,
+                                        "CAS02_AdjustmentReasonCode": "40"
+                                    },
+                                    {
+                                        "CAS01_ClaimAdjustmentGroupCode": "PR",
+                                        "CAS03_AdjustmentAmount": 13,
+                                        "CAS02_AdjustmentReasonCode": "45"
+                                    },
+                                    {
+                                        "CAS01_ClaimAdjustmentGroupCode": "OA",
+                                        "CAS03_AdjustmentAmount": 34.97,
+                                        "CAS02_AdjustmentReasonCode": "97"
+                                    }
+                                ],
+                                "NM1_ServiceProviderName": {
+                                    "NM107_RenderingProviderNameSuffix": "JR",
+                                    "NM101_EntityIdentifierCode": "82",
+                                    "NM102_EntityTypeQualifier": "1",
+                                    "NM104_RenderingProviderFirstName": "BLAKE",
+                                    "NM105_RenderingProviderMiddleNameOrInitial": "AUSTIN",
+                                    "NM108_IdentificationCodeQualifier": "XX",
+                                    "NM103_RenderingProviderLastOrOrganizationName": "SHELTON MD",
+                                    "NM109_RenderingProviderIdentifier": "1666666666"
+                                },
+                                "NM1_OtherSubscriberName": {
+                                    "NM104_OtherSubscriberFirstName": "JANE",
+                                    "NM103_OtherSubscriberLastName": "SMITH",
+                                    "NM107_OtherSubscriberNameSuffix": "MRS",
+                                    "NM101_EntityIdentifierCode": "GB",
+                                    "NM102_EntityTypeQualifier": "1",
+                                    "NM105_OtherSubscriberMiddleNameOrInitial": "ANN",
+                                    "NM108_IdentificationCodeQualifier": "MI",
+                                    "NM109_OtherSubscriberIdentifier": "62341809022"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Name": "Health Care Claim Payment/Advice"
+        }

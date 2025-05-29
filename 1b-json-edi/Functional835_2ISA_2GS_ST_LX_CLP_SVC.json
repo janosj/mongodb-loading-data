@@ -1,0 +1,1076 @@
+[
+    [
+        {
+            "Interchange": {
+                "ISA09": "190827",
+                "ISA04": "",
+                "ISA15": "T",
+                "ISA03": "00",
+                "ISA14": "0",
+                "ISA02": "",
+                "ISA13": 191511902,
+                "ISA01": "00",
+                "ISA12": "00501",
+                "ISA08": "ABCPAYER",
+                "ISA07": "ZZ",
+                "ISA06": "ABCPAYER",
+                "ISA05": "ZZ",
+                "ISA16": "|",
+                "ISA11": "^",
+                "ISA10": 0212
+            },
+            "Errors": [
+                {
+                    "interchangeId": 191511902,
+                    "errorType": "SEGMENT_SYNTAX",
+                    "groupId": 12345678,
+                    "errorCode": "7",
+                    "transactionId": "10060875",
+                    "fatal": false,
+                    "errorLevel": "TRANSACTION_LEVEL",
+                    "errorText": "Segment Not in Proper Sequence",
+                    "segment": 21,
+                    "segTag": "NM1",
+                    "errorDetails": "recoverable transaction error 'Segment Not in Proper Sequence: NM1'"
+                }
+            ],
+            "Group": {
+                "GS05": 45296780,
+                "GS04": "2019-08-27T00:00:00Z",
+                "GS07": "X",
+                "GS06": 12345678,
+                "GS08": "005010X221A1",
+                "GS01": "HP",
+                "GS03": "ABCD",
+                "GS02": "ABCD"
+            },
+            "Heading": {
+                "1000A_Loop": {
+                    "PER_PayerTechnicalContactInformation": [
+                        {
+                            "PER06_PayerTechnicalContactCommunicationNumber": "EDI.SUPPORT@ANYPAYER.COM",
+                            "PER01_ContactFunctionCode": "BL",
+                            "PER04_PayerContactCommunicationNumber": "8002223333",
+                            "PER05_CommunicationNumberQualifier": "EM",
+                            "PER02_PayerTechnicalContactName": "EDI",
+                            "PER03_CommunicationNumberQualifier": "TE"
+                        }
+                    ],
+                    "N4_PayerCityStateZIPCode": {
+                        "N401_PayerCityName": "ANYCITY",
+                        "N403_PayerPostalZoneOrZIPCode": "45209",
+                        "N402_PayerStateCode": "OH"
+                    },
+                    "PER_PayerWEBSite": {
+                        "PER04_CommunicationNumber": "WWW.ANYPAYER.COM",
+                        "PER01_ContactFunctionCode": "IC",
+                        "PER03_CommunicationNumberQualifier": "UR"
+                    },
+                    "N3_PayerAddress": {
+                        "N301_PayerAddressLine": "1 WALK THIS WAY"
+                    },
+                    "PER_PayerBusinessContactInformation": {
+                        "PER01_ContactFunctionCode": "CX",
+                        "PER04_PayerContactCommunicationNumber": "8661112222",
+                        "PER03_CommunicationNumberQualifier": "TE"
+                    },
+                    "N1_PayerIdentification": {
+                        "N101_EntityIdentifierCode": "PR",
+                        "N102_PayerName": "ANY PLAN USA"
+                    }
+                },
+                "REF_ReceiverIdentification": {
+                    "REF02_ReceiverIdentifier": "FAC",
+                    "REF01_ReferenceIdentificationQualifier": "EV"
+                },
+                "1000B_Loop": {
+                    "N3_PayeeAddress": {
+                        "N301_PayeeAddressLine": "2255 ANY ROAD"
+                    },
+                    "N4_PayeeCityStateZIPCode": {
+                        "N403_PayeePostalZoneOrZIPCode": "12211",
+                        "N402_PayeeStateCode": "CA",
+                        "N401_PayeeCityName": "ANY CITY"
+                    },
+                    "REF_PayeeAdditionalIdentification": [
+                        {
+                            "REF02_AdditionalPayeeIdentifier": "123456789",
+                            "REF01_ReferenceIdentificationQualifier": "TJ"
+                        }
+                    ],
+                    "N1_PayeeIdentification": {
+                        "N103_IdentificationCodeQualifier": "XX",
+                        "N104_PayeeIdentificationCode": "1123454567",
+                        "N101_EntityIdentifierCode": "PE",
+                        "N102_PayeeName": "PROVIDER"
+                    }
+                },
+                "BPR_FinancialInformation": {
+                    "BPR02_TotalActualProviderPaymentAmount": 120.03,
+                    "BPR16_CheckIssueOrEFTEffectiveDate": "2019-08-16T00:00:00Z",
+                    "BPR03_CreditOrDebitFlagCode": "C",
+                    "BPR01_TransactionHandlingCode": "I",
+                    "BPR04_PaymentMethodCode": "CHK"
+                },
+                "DTM_ProductionDate": {
+                    "DTM01_DateTimeQualifier": "405",
+                    "DTM02_ProductionDate": "2019-08-27T00:00:00Z"
+                },
+                "TRN_ReassociationTraceNumber": {
+                    "TRN03_PayerIdentifier": "1234567890",
+                    "TRN01_TraceTypeCode": "1",
+                    "TRN02_CheckOrEFTTraceNumber": "CK NUMBER 1"
+                }
+            },
+            "SetTrailer": {
+                "SE02": "10060875",
+                "SE01": 35
+            },
+            "Summary": {},
+            "Id": "835",
+            "SetHeader": {
+                "ST01": "835",
+                "ST02": "10060875"
+            },
+            "Detail": {
+                "2000_Loop": [
+                    {
+                        "LX_HeaderNumber": {
+                            "LX01_AssignedNumber": 1
+                        },
+                        "2100_Loop": [
+                            {
+                                "DTM_StatementFromOrToDate": [
+                                    {
+                                        "DTM01_DateTimeQualifier": "232",
+                                        "DTM02_ClaimDate": "2019-11-14T00:00:00Z"
+                                    },
+                                    {
+                                        "DTM01_DateTimeQualifier": "233",
+                                        "DTM02_ClaimDate": "2018-11-14T00:00:00Z"
+                                    }
+                                ],
+                                "NM1_CorrectedPatientInsuredName": {
+                                    "NM103_CorrectedPatientOrInsuredLastName": "MASTERS",
+                                    "NM101_EntityIdentifierCode": "74",
+                                    "NM102_EntityTypeQualifier": "1",
+                                    "NM104_CorrectedPatientOrInsuredFirstName": "MARVIN",
+                                    "NM108_IdentificationCodeQualifier": "C",
+                                    "NM109_CorrectedInsuredIdentificationIndicator": "80444444401"
+                                },
+                                "AMT_ClaimSupplementalInformation": [
+                                    {
+                                        "AMT02_ClaimSupplementalInformationAmount": 155,
+                                        "AMT01_AmountQualifierCode": "AU"
+                                    }
+                                ],
+                                "2110_Loop": [
+                                    {
+                                        "REF_LineItemControlNumber": {
+                                            "REF01_ReferenceIdentificationQualifier": "6R",
+                                            "REF02_LineItemControlNumber": "22261822"
+                                        },
+                                        "DTM_ServiceDate": [
+                                            {
+                                                "DTM01_DateTimeQualifier": "472",
+                                                "DTM02_ServiceDate": "2018-11-14T00:00:00Z"
+                                            }
+                                        ],
+                                        "SVC_ServicePaymentInformation": {
+                                            "SVC05_UnitsOfServicePaidCount": 1,
+                                            "SVC02_LineItemChargeAmount": 155,
+                                            "SVC01_CompositeMedicalProcedureIdentifier": {
+                                                "SVC01_ProductOrServiceIDQualifier": "HC",
+                                                "SVC02_AdjudicatedProcedureCode": "99393"
+                                            },
+                                            "SVC03_LineItemProviderPaymentAmount": 120.03
+                                        },
+                                        "REF_ServiceIdentification": [
+                                            {
+                                                "REF01_ReferenceIdentificationQualifier": "LU",
+                                                "REF02_ProviderIdentifier": "11"
+                                            }
+                                        ],
+                                        "CAS_ServiceAdjustment": [
+                                            {
+                                                "CAS01_ClaimAdjustmentGroupCode": "CO",
+                                                "CAS03_AdjustmentAmount": 34.97,
+                                                "CAS02_AdjustmentReasonCode": "45"
+                                            }
+                                        ],
+                                        "AMT_ServiceSupplementalAmount": [
+                                            {
+                                                "AMT02_ServiceSupplementalAmount": 120.03,
+                                                "AMT01_AmountQualifierCode": "B6"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "DTM_ClaimReceivedDate": {
+                                    "DTM01_DateTimeQualifier": "050",
+                                    "DTM02_Date": "2018-11-19T00:00:00Z"
+                                },
+                                "CLP_ClaimPaymentInformation": {
+                                    "CLP06_ClaimFilingIndicatorCode": "13",
+                                    "CLP08_FacilityTypeCode": "11",
+                                    "CLP04_ClaimPaymentAmount": 120.03,
+                                    "CLP03_TotalClaimChargeAmount": 155,
+                                    "CLP01_PatientControlNumber": "04111196TLC777122",
+                                    "CLP02_ClaimStatusCode": "1",
+                                    "CLP09_ClaimFrequencyCode": "1",
+                                    "CLP07_PayerClaimControlNumber": "8838888212"
+                                },
+                                "REF_OtherClaimRelatedIdentification": [
+                                    {
+                                        "REF02_OtherClaimRelatedIdentifier": "28",
+                                        "REF01_ReferenceIdentificationQualifier": "1L"
+                                    },
+                                    {
+                                        "REF02_OtherClaimRelatedIdentifier": "HSOAP-LAOA",
+                                        "REF01_ReferenceIdentificationQualifier": "CE"
+                                    }
+                                ],
+                                "NM1_InsuredName": {
+                                    "NM109_SubscriberIdentifier": "80444444403",
+                                    "NM101_EntityIdentifierCode": "IL",
+                                    "NM102_EntityTypeQualifier": "1",
+                                    "NM108_IdentificationCodeQualifier": "MI",
+                                    "NM104_SubscriberFirstName": "MABEL",
+                                    "NM103_SubscriberLastName": "CABLE"
+                                },
+                                "REF_RenderingProviderIdentification": [
+                                    {
+                                        "REF01_ReferenceIdentificationQualifier": "1J",
+                                        "REF02_RenderingProviderSecondaryIdentifier": "555555555"
+                                    }
+                                ],
+                                "NM1_PatientName": {
+                                    "NM104_PatientFirstName": "MARVIN",
+                                    "NM109_PatientIdentifier": "80444444403",
+                                    "NM101_EntityIdentifierCode": "QC",
+                                    "NM102_EntityTypeQualifier": "1",
+                                    "NM103_PatientLastName": "MASTERS",
+                                    "NM108_IdentificationCodeQualifier": "MI",
+                                    "NM105_PatientMiddleNameOrInitial": "L"
+                                },
+                                "NM1_ServiceProviderName": {
+                                    "NM101_EntityIdentifierCode": "82",
+                                    "NM102_EntityTypeQualifier": "1",
+                                    "NM104_RenderingProviderFirstName": "BLAKE",
+                                    "NM108_IdentificationCodeQualifier": "XX",
+                                    "NM103_RenderingProviderLastOrOrganizationName": "SHELTON MD",
+                                    "NM109_RenderingProviderIdentifier": "1666666666"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Name": "Health Care Claim Payment/Advice"
+        },
+        {
+            "Interchange": {
+                "ISA09": "2019-08-27T00:00:00Z",
+                "ISA04": "",
+                "ISA15": "T",
+                "ISA03": "00",
+                "ISA14": "0",
+                "ISA02": "",
+                "ISA13": 191511902,
+                "ISA01": "00",
+                "ISA12": "00501",
+                "ISA08": "ABCPAYER",
+                "ISA07": "ZZ",
+                "ISA06": "ABCPAYER",
+                "ISA05": "ZZ",
+                "ISA16": "|",
+                "ISA11": "^",
+                "ISA10": 7920000
+            },
+            "Errors": [
+                {
+                    "interchangeId": 191511902,
+                    "errorType": "SEGMENT_SYNTAX",
+                    "groupId": 12345679,
+                    "errorCode": "7",
+                    "transactionId": "10060875",
+                    "fatal": false,
+                    "errorLevel": "TRANSACTION_LEVEL",
+                    "errorText": "Segment Not in Proper Sequence",
+                    "segment": 58,
+                    "segTag": "NM1",
+                    "errorDetails": "recoverable transaction error 'Segment Not in Proper Sequence: NM1'"
+                }
+            ],
+            "Group": {
+                "GS05": 45296780,
+                "GS04": "2019-08-27T00:00:00Z",
+                "GS07": "X",
+                "GS06": 12345679,
+                "GS08": "005010X221A1",
+                "GS01": "HP",
+                "GS03": "ABCD",
+                "GS02": "ABCD"
+            },
+            "Heading": {
+                "1000A_Loop": {
+                    "PER_PayerTechnicalContactInformation": [
+                        {
+                            "PER06_PayerTechnicalContactCommunicationNumber": "EDI.SUPPORT@ANYPAYER.COM",
+                            "PER01_ContactFunctionCode": "BL",
+                            "PER04_PayerContactCommunicationNumber": "8002223333",
+                            "PER05_CommunicationNumberQualifier": "EM",
+                            "PER02_PayerTechnicalContactName": "EDI",
+                            "PER03_CommunicationNumberQualifier": "TE"
+                        }
+                    ],
+                    "N4_PayerCityStateZIPCode": {
+                        "N401_PayerCityName": "ANYCITY",
+                        "N403_PayerPostalZoneOrZIPCode": "45209",
+                        "N402_PayerStateCode": "OH"
+                    },
+                    "PER_PayerWEBSite": {
+                        "PER04_CommunicationNumber": "WWW.ANYPAYER.COM",
+                        "PER01_ContactFunctionCode": "IC",
+                        "PER03_CommunicationNumberQualifier": "UR"
+                    },
+                    "N3_PayerAddress": {
+                        "N301_PayerAddressLine": "1 WALK THIS WAY"
+                    },
+                    "PER_PayerBusinessContactInformation": {
+                        "PER01_ContactFunctionCode": "CX",
+                        "PER04_PayerContactCommunicationNumber": "8661112222",
+                        "PER03_CommunicationNumberQualifier": "TE"
+                    },
+                    "N1_PayerIdentification": {
+                        "N101_EntityIdentifierCode": "PR",
+                        "N102_PayerName": "ANY PLAN USA"
+                    }
+                },
+                "REF_ReceiverIdentification": {
+                    "REF02_ReceiverIdentifier": "FAC",
+                    "REF01_ReferenceIdentificationQualifier": "EV"
+                },
+                "1000B_Loop": {
+                    "N3_PayeeAddress": {
+                        "N301_PayeeAddressLine": "2255 ANY ROAD"
+                    },
+                    "N4_PayeeCityStateZIPCode": {
+                        "N403_PayeePostalZoneOrZIPCode": "12211",
+                        "N402_PayeeStateCode": "CA",
+                        "N401_PayeeCityName": "ANY CITY"
+                    },
+                    "REF_PayeeAdditionalIdentification": [
+                        {
+                            "REF02_AdditionalPayeeIdentifier": "123456789",
+                            "REF01_ReferenceIdentificationQualifier": "TJ"
+                        }
+                    ],
+                    "N1_PayeeIdentification": {
+                        "N103_IdentificationCodeQualifier": "XX",
+                        "N104_PayeeIdentificationCode": "1123454567",
+                        "N101_EntityIdentifierCode": "PE",
+                        "N102_PayeeName": "PROVIDER"
+                    }
+                },
+                "BPR_FinancialInformation": {
+                    "BPR02_TotalActualProviderPaymentAmount": 120.03,
+                    "BPR16_CheckIssueOrEFTEffectiveDate": "2019-08-16T00:00:00Z",
+                    "BPR03_CreditOrDebitFlagCode": "C",
+                    "BPR01_TransactionHandlingCode": "I",
+                    "BPR04_PaymentMethodCode": "CHK"
+                },
+                "DTM_ProductionDate": {
+                    "DTM01_DateTimeQualifier": "405",
+                    "DTM02_ProductionDate": "2019-08-27T00:00:00Z"
+                },
+                "TRN_ReassociationTraceNumber": {
+                    "TRN03_PayerIdentifier": "1234567890",
+                    "TRN01_TraceTypeCode": "1",
+                    "TRN02_CheckOrEFTTraceNumber": "CK NUMBER 1"
+                }
+            },
+            "SetTrailer": {
+                "SE02": "10060875",
+                "SE01": 35
+            },
+            "Summary": {},
+            "Id": "835",
+            "SetHeader": {
+                "ST01": "835",
+                "ST02": "10060875"
+            },
+            "Detail": {
+                "2000_Loop": [
+                    {
+                        "LX_HeaderNumber": {
+                            "LX01_AssignedNumber": 1
+                        },
+                        "2100_Loop": [
+                            {
+                                "DTM_StatementFromOrToDate": [
+                                    {
+                                        "DTM01_DateTimeQualifier": "232",
+                                        "DTM02_ClaimDate": "2019-11-14T00:00:00Z"
+                                    },
+                                    {
+                                        "DTM01_DateTimeQualifier": "233",
+                                        "DTM02_ClaimDate": "2018-11-14T00:00:00Z"
+                                    }
+                                ],
+                                "NM1_CorrectedPatientInsuredName": {
+                                    "NM103_CorrectedPatientOrInsuredLastName": "MASTERS",
+                                    "NM101_EntityIdentifierCode": "74",
+                                    "NM102_EntityTypeQualifier": "1",
+                                    "NM104_CorrectedPatientOrInsuredFirstName": "MARVIN",
+                                    "NM108_IdentificationCodeQualifier": "C",
+                                    "NM109_CorrectedInsuredIdentificationIndicator": "80444444401"
+                                },
+                                "AMT_ClaimSupplementalInformation": [
+                                    {
+                                        "AMT02_ClaimSupplementalInformationAmount": 155,
+                                        "AMT01_AmountQualifierCode": "AU"
+                                    }
+                                ],
+                                "2110_Loop": [
+                                    {
+                                        "REF_LineItemControlNumber": {
+                                            "REF01_ReferenceIdentificationQualifier": "6R",
+                                            "REF02_LineItemControlNumber": "22261822"
+                                        },
+                                        "DTM_ServiceDate": [
+                                            {
+                                                "DTM01_DateTimeQualifier": "472",
+                                                "DTM02_ServiceDate": "2018-11-14T00:00:00Z"
+                                            }
+                                        ],
+                                        "SVC_ServicePaymentInformation": {
+                                            "SVC05_UnitsOfServicePaidCount": 1,
+                                            "SVC02_LineItemChargeAmount": 155,
+                                            "SVC01_CompositeMedicalProcedureIdentifier": {
+                                                "SVC01_ProductOrServiceIDQualifier": "HC",
+                                                "SVC02_AdjudicatedProcedureCode": "99393"
+                                            },
+                                            "SVC03_LineItemProviderPaymentAmount": 120.03
+                                        },
+                                        "REF_ServiceIdentification": [
+                                            {
+                                                "REF01_ReferenceIdentificationQualifier": "LU",
+                                                "REF02_ProviderIdentifier": "11"
+                                            }
+                                        ],
+                                        "CAS_ServiceAdjustment": [
+                                            {
+                                                "CAS01_ClaimAdjustmentGroupCode": "CO",
+                                                "CAS03_AdjustmentAmount": 34.97,
+                                                "CAS02_AdjustmentReasonCode": "45"
+                                            }
+                                        ],
+                                        "AMT_ServiceSupplementalAmount": [
+                                            {
+                                                "AMT02_ServiceSupplementalAmount": 120.03,
+                                                "AMT01_AmountQualifierCode": "B6"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "DTM_ClaimReceivedDate": {
+                                    "DTM01_DateTimeQualifier": "050",
+                                    "DTM02_Date": "2018-11-19T00:00:00Z"
+                                },
+                                "CLP_ClaimPaymentInformation": {
+                                    "CLP06_ClaimFilingIndicatorCode": "13",
+                                    "CLP08_FacilityTypeCode": "11",
+                                    "CLP04_ClaimPaymentAmount": 120.03,
+                                    "CLP03_TotalClaimChargeAmount": 155,
+                                    "CLP01_PatientControlNumber": "04111196TLC777122",
+                                    "CLP02_ClaimStatusCode": "1",
+                                    "CLP09_ClaimFrequencyCode": "1",
+                                    "CLP07_PayerClaimControlNumber": "8838888212"
+                                },
+                                "REF_OtherClaimRelatedIdentification": [
+                                    {
+                                        "REF02_OtherClaimRelatedIdentifier": "28",
+                                        "REF01_ReferenceIdentificationQualifier": "1L"
+                                    },
+                                    {
+                                        "REF02_OtherClaimRelatedIdentifier": "HSOAP-LAOA",
+                                        "REF01_ReferenceIdentificationQualifier": "CE"
+                                    }
+                                ],
+                                "NM1_InsuredName": {
+                                    "NM109_SubscriberIdentifier": "80444444403",
+                                    "NM101_EntityIdentifierCode": "IL",
+                                    "NM102_EntityTypeQualifier": "1",
+                                    "NM108_IdentificationCodeQualifier": "MI",
+                                    "NM104_SubscriberFirstName": "MABEL",
+                                    "NM103_SubscriberLastName": "CABLE"
+                                },
+                                "REF_RenderingProviderIdentification": [
+                                    {
+                                        "REF01_ReferenceIdentificationQualifier": "1J",
+                                        "REF02_RenderingProviderSecondaryIdentifier": "555555555"
+                                    }
+                                ],
+                                "NM1_PatientName": {
+                                    "NM104_PatientFirstName": "MARVIN",
+                                    "NM109_PatientIdentifier": "80444444403",
+                                    "NM101_EntityIdentifierCode": "QC",
+                                    "NM102_EntityTypeQualifier": "1",
+                                    "NM103_PatientLastName": "MASTERS",
+                                    "NM108_IdentificationCodeQualifier": "MI",
+                                    "NM105_PatientMiddleNameOrInitial": "L"
+                                },
+                                "NM1_ServiceProviderName": {
+                                    "NM101_EntityIdentifierCode": "82",
+                                    "NM102_EntityTypeQualifier": "1",
+                                    "NM104_RenderingProviderFirstName": "BLAKE",
+                                    "NM108_IdentificationCodeQualifier": "XX",
+                                    "NM103_RenderingProviderLastOrOrganizationName": "SHELTON MD",
+                                    "NM109_RenderingProviderIdentifier": "1666666666"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Name": "Health Care Claim Payment/Advice"
+        },
+        {
+            "Interchange": {
+                "ISA09": "2019-08-27T00:00:00Z",
+                "ISA04": "",
+                "ISA15": "T",
+                "ISA03": "00",
+                "ISA14": "0",
+                "ISA02": "",
+                "ISA13": 191511903,
+                "ISA01": "00",
+                "ISA12": "00501",
+                "ISA08": "ABCPAYER",
+                "ISA07": "ZZ",
+                "ISA06": "ABCPAYER",
+                "ISA05": "ZZ",
+                "ISA16": "|",
+                "ISA11": "^",
+                "ISA10": 7920000
+            },
+            "Errors": [
+                {
+                    "interchangeId": 191511903,
+                    "errorType": "SEGMENT_SYNTAX",
+                    "groupId": 12345678,
+                    "errorCode": "7",
+                    "transactionId": "10060875",
+                    "fatal": false,
+                    "errorLevel": "TRANSACTION_LEVEL",
+                    "errorText": "Segment Not in Proper Sequence",
+                    "segment": 96,
+                    "segTag": "NM1",
+                    "errorDetails": "recoverable transaction error 'Segment Not in Proper Sequence: NM1'"
+                }
+            ],
+            "Group": {
+                "GS05": 45296780,
+                "GS04": "2019-08-27T00:00:00Z",
+                "GS07": "X",
+                "GS06": 12345678,
+                "GS08": "005010X221A1",
+                "GS01": "HP",
+                "GS03": "ABCD",
+                "GS02": "ABCD"
+            },
+            "Heading": {
+                "1000A_Loop": {
+                    "PER_PayerTechnicalContactInformation": [
+                        {
+                            "PER06_PayerTechnicalContactCommunicationNumber": "EDI.SUPPORT@ANYPAYER.COM",
+                            "PER01_ContactFunctionCode": "BL",
+                            "PER04_PayerContactCommunicationNumber": "8002223333",
+                            "PER05_CommunicationNumberQualifier": "EM",
+                            "PER02_PayerTechnicalContactName": "EDI",
+                            "PER03_CommunicationNumberQualifier": "TE"
+                        }
+                    ],
+                    "N4_PayerCityStateZIPCode": {
+                        "N401_PayerCityName": "ANYCITY",
+                        "N403_PayerPostalZoneOrZIPCode": "45209",
+                        "N402_PayerStateCode": "OH"
+                    },
+                    "PER_PayerWEBSite": {
+                        "PER04_CommunicationNumber": "WWW.ANYPAYER.COM",
+                        "PER01_ContactFunctionCode": "IC",
+                        "PER03_CommunicationNumberQualifier": "UR"
+                    },
+                    "N3_PayerAddress": {
+                        "N301_PayerAddressLine": "1 WALK THIS WAY"
+                    },
+                    "PER_PayerBusinessContactInformation": {
+                        "PER01_ContactFunctionCode": "CX",
+                        "PER04_PayerContactCommunicationNumber": "8661112222",
+                        "PER03_CommunicationNumberQualifier": "TE"
+                    },
+                    "N1_PayerIdentification": {
+                        "N101_EntityIdentifierCode": "PR",
+                        "N102_PayerName": "ANY PLAN USA"
+                    }
+                },
+                "REF_ReceiverIdentification": {
+                    "REF02_ReceiverIdentifier": "FAC",
+                    "REF01_ReferenceIdentificationQualifier": "EV"
+                },
+                "1000B_Loop": {
+                    "N3_PayeeAddress": {
+                        "N301_PayeeAddressLine": "2255 ANY ROAD"
+                    },
+                    "N4_PayeeCityStateZIPCode": {
+                        "N403_PayeePostalZoneOrZIPCode": "12211",
+                        "N402_PayeeStateCode": "CA",
+                        "N401_PayeeCityName": "ANY CITY"
+                    },
+                    "REF_PayeeAdditionalIdentification": [
+                        {
+                            "REF02_AdditionalPayeeIdentifier": "123456789",
+                            "REF01_ReferenceIdentificationQualifier": "TJ"
+                        }
+                    ],
+                    "N1_PayeeIdentification": {
+                        "N103_IdentificationCodeQualifier": "XX",
+                        "N104_PayeeIdentificationCode": "1123454567",
+                        "N101_EntityIdentifierCode": "PE",
+                        "N102_PayeeName": "PROVIDER"
+                    }
+                },
+                "BPR_FinancialInformation": {
+                    "BPR02_TotalActualProviderPaymentAmount": 120.03,
+                    "BPR16_CheckIssueOrEFTEffectiveDate": "2019-08-16T00:00:00Z",
+                    "BPR03_CreditOrDebitFlagCode": "C",
+                    "BPR01_TransactionHandlingCode": "I",
+                    "BPR04_PaymentMethodCode": "CHK"
+                },
+                "DTM_ProductionDate": {
+                    "DTM01_DateTimeQualifier": "405",
+                    "DTM02_ProductionDate": "2019-08-27T00:00:00Z"
+                },
+                "TRN_ReassociationTraceNumber": {
+                    "TRN03_PayerIdentifier": "1234567890",
+                    "TRN01_TraceTypeCode": "1",
+                    "TRN02_CheckOrEFTTraceNumber": "CK NUMBER 1"
+                }
+            },
+            "SetTrailer": {
+                "SE02": "10060875",
+                "SE01": 35
+            },
+            "Summary": {},
+            "Id": "835",
+            "SetHeader": {
+                "ST01": "835",
+                "ST02": "10060875"
+            },
+            "Detail": {
+                "2000_Loop": [
+                    {
+                        "LX_HeaderNumber": {
+                            "LX01_AssignedNumber": 1
+                        },
+                        "2100_Loop": [
+                            {
+                                "DTM_StatementFromOrToDate": [
+                                    {
+                                        "DTM01_DateTimeQualifier": "232",
+                                        "DTM02_ClaimDate": "2019-11-14T00:00:00Z"
+                                    },
+                                    {
+                                        "DTM01_DateTimeQualifier": "233",
+                                        "DTM02_ClaimDate": "2018-11-14T00:00:00Z"
+                                    }
+                                ],
+                                "NM1_CorrectedPatientInsuredName": {
+                                    "NM103_CorrectedPatientOrInsuredLastName": "MASTERS",
+                                    "NM101_EntityIdentifierCode": "74",
+                                    "NM102_EntityTypeQualifier": "1",
+                                    "NM104_CorrectedPatientOrInsuredFirstName": "MARVIN",
+                                    "NM108_IdentificationCodeQualifier": "C",
+                                    "NM109_CorrectedInsuredIdentificationIndicator": "80444444401"
+                                },
+                                "AMT_ClaimSupplementalInformation": [
+                                    {
+                                        "AMT02_ClaimSupplementalInformationAmount": 155,
+                                        "AMT01_AmountQualifierCode": "AU"
+                                    }
+                                ],
+                                "2110_Loop": [
+                                    {
+                                        "REF_LineItemControlNumber": {
+                                            "REF01_ReferenceIdentificationQualifier": "6R",
+                                            "REF02_LineItemControlNumber": "22261822"
+                                        },
+                                        "DTM_ServiceDate": [
+                                            {
+                                                "DTM01_DateTimeQualifier": "472",
+                                                "DTM02_ServiceDate": "2018-11-14T00:00:00Z"
+                                            }
+                                        ],
+                                        "SVC_ServicePaymentInformation": {
+                                            "SVC05_UnitsOfServicePaidCount": 1,
+                                            "SVC02_LineItemChargeAmount": 155,
+                                            "SVC01_CompositeMedicalProcedureIdentifier": {
+                                                "SVC01_ProductOrServiceIDQualifier": "HC",
+                                                "SVC02_AdjudicatedProcedureCode": "99393"
+                                            },
+                                            "SVC03_LineItemProviderPaymentAmount": 120.03
+                                        },
+                                        "REF_ServiceIdentification": [
+                                            {
+                                                "REF01_ReferenceIdentificationQualifier": "LU",
+                                                "REF02_ProviderIdentifier": "11"
+                                            }
+                                        ],
+                                        "CAS_ServiceAdjustment": [
+                                            {
+                                                "CAS01_ClaimAdjustmentGroupCode": "CO",
+                                                "CAS03_AdjustmentAmount": 34.97,
+                                                "CAS02_AdjustmentReasonCode": "45"
+                                            }
+                                        ],
+                                        "AMT_ServiceSupplementalAmount": [
+                                            {
+                                                "AMT02_ServiceSupplementalAmount": 120.03,
+                                                "AMT01_AmountQualifierCode": "B6"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "DTM_ClaimReceivedDate": {
+                                    "DTM01_DateTimeQualifier": "050",
+                                    "DTM02_Date": "2018-11-19T00:00:00Z"
+                                },
+                                "CLP_ClaimPaymentInformation": {
+                                    "CLP06_ClaimFilingIndicatorCode": "13",
+                                    "CLP08_FacilityTypeCode": "11",
+                                    "CLP04_ClaimPaymentAmount": 120.03,
+                                    "CLP03_TotalClaimChargeAmount": 155,
+                                    "CLP01_PatientControlNumber": "04111196TLC777122",
+                                    "CLP02_ClaimStatusCode": "1",
+                                    "CLP09_ClaimFrequencyCode": "1",
+                                    "CLP07_PayerClaimControlNumber": "8838888212"
+                                },
+                                "REF_OtherClaimRelatedIdentification": [
+                                    {
+                                        "REF02_OtherClaimRelatedIdentifier": "28",
+                                        "REF01_ReferenceIdentificationQualifier": "1L"
+                                    },
+                                    {
+                                        "REF02_OtherClaimRelatedIdentifier": "HSOAP-LAOA",
+                                        "REF01_ReferenceIdentificationQualifier": "CE"
+                                    }
+                                ],
+                                "NM1_InsuredName": {
+                                    "NM109_SubscriberIdentifier": "80444444403",
+                                    "NM101_EntityIdentifierCode": "IL",
+                                    "NM102_EntityTypeQualifier": "1",
+                                    "NM108_IdentificationCodeQualifier": "MI",
+                                    "NM104_SubscriberFirstName": "MABEL",
+                                    "NM103_SubscriberLastName": "CABLE"
+                                },
+                                "REF_RenderingProviderIdentification": [
+                                    {
+                                        "REF01_ReferenceIdentificationQualifier": "1J",
+                                        "REF02_RenderingProviderSecondaryIdentifier": "555555555"
+                                    }
+                                ],
+                                "NM1_PatientName": {
+                                    "NM104_PatientFirstName": "MARVIN",
+                                    "NM109_PatientIdentifier": "80444444403",
+                                    "NM101_EntityIdentifierCode": "QC",
+                                    "NM102_EntityTypeQualifier": "1",
+                                    "NM103_PatientLastName": "MASTERS",
+                                    "NM108_IdentificationCodeQualifier": "MI",
+                                    "NM105_PatientMiddleNameOrInitial": "L"
+                                },
+                                "NM1_ServiceProviderName": {
+                                    "NM101_EntityIdentifierCode": "82",
+                                    "NM102_EntityTypeQualifier": "1",
+                                    "NM104_RenderingProviderFirstName": "BLAKE",
+                                    "NM108_IdentificationCodeQualifier": "XX",
+                                    "NM103_RenderingProviderLastOrOrganizationName": "SHELTON MD",
+                                    "NM109_RenderingProviderIdentifier": "1666666666"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Name": "Health Care Claim Payment/Advice"
+        },
+        {
+            "Interchange": {
+                "ISA09": "2019-08-27T00:00:00Z",
+                "ISA04": "",
+                "ISA15": "T",
+                "ISA03": "00",
+                "ISA14": "0",
+                "ISA02": "",
+                "ISA13": 191511903,
+                "ISA01": "00",
+                "ISA12": "00501",
+                "ISA08": "ABCPAYER",
+                "ISA07": "ZZ",
+                "ISA06": "ABCPAYER",
+                "ISA05": "ZZ",
+                "ISA16": "|",
+                "ISA11": "^",
+                "ISA10": 7920000
+            },
+            "Errors": [
+                {
+                    "interchangeId": 191511903,
+                    "errorType": "SEGMENT_SYNTAX",
+                    "groupId": 12345679,
+                    "errorCode": "7",
+                    "transactionId": "10060875",
+                    "fatal": false,
+                    "errorLevel": "TRANSACTION_LEVEL",
+                    "errorText": "Segment Not in Proper Sequence",
+                    "segment": 133,
+                    "segTag": "NM1",
+                    "errorDetails": "recoverable transaction error 'Segment Not in Proper Sequence: NM1'"
+                }
+            ],
+            "Group": {
+                "GS05": 45296780,
+                "GS04": "2019-08-27T00:00:00Z",
+                "GS07": "X",
+                "GS06": 12345679,
+                "GS08": "005010X221A1",
+                "GS01": "HP",
+                "GS03": "ABCD",
+                "GS02": "ABCD"
+            },
+            "Heading": {
+                "1000A_Loop": {
+                    "PER_PayerTechnicalContactInformation": [
+                        {
+                            "PER06_PayerTechnicalContactCommunicationNumber": "EDI.SUPPORT@ANYPAYER.COM",
+                            "PER01_ContactFunctionCode": "BL",
+                            "PER04_PayerContactCommunicationNumber": "8002223333",
+                            "PER05_CommunicationNumberQualifier": "EM",
+                            "PER02_PayerTechnicalContactName": "EDI",
+                            "PER03_CommunicationNumberQualifier": "TE"
+                        }
+                    ],
+                    "N4_PayerCityStateZIPCode": {
+                        "N401_PayerCityName": "ANYCITY",
+                        "N403_PayerPostalZoneOrZIPCode": "45209",
+                        "N402_PayerStateCode": "OH"
+                    },
+                    "PER_PayerWEBSite": {
+                        "PER04_CommunicationNumber": "WWW.ANYPAYER.COM",
+                        "PER01_ContactFunctionCode": "IC",
+                        "PER03_CommunicationNumberQualifier": "UR"
+                    },
+                    "N3_PayerAddress": {
+                        "N301_PayerAddressLine": "1 WALK THIS WAY"
+                    },
+                    "PER_PayerBusinessContactInformation": {
+                        "PER01_ContactFunctionCode": "CX",
+                        "PER04_PayerContactCommunicationNumber": "8661112222",
+                        "PER03_CommunicationNumberQualifier": "TE"
+                    },
+                    "N1_PayerIdentification": {
+                        "N101_EntityIdentifierCode": "PR",
+                        "N102_PayerName": "ANY PLAN USA"
+                    }
+                },
+                "REF_ReceiverIdentification": {
+                    "REF02_ReceiverIdentifier": "FAC",
+                    "REF01_ReferenceIdentificationQualifier": "EV"
+                },
+                "1000B_Loop": {
+                    "N3_PayeeAddress": {
+                        "N301_PayeeAddressLine": "2255 ANY ROAD"
+                    },
+                    "N4_PayeeCityStateZIPCode": {
+                        "N403_PayeePostalZoneOrZIPCode": "12211",
+                        "N402_PayeeStateCode": "CA",
+                        "N401_PayeeCityName": "ANY CITY"
+                    },
+                    "REF_PayeeAdditionalIdentification": [
+                        {
+                            "REF02_AdditionalPayeeIdentifier": "123456789",
+                            "REF01_ReferenceIdentificationQualifier": "TJ"
+                        }
+                    ],
+                    "N1_PayeeIdentification": {
+                        "N103_IdentificationCodeQualifier": "XX",
+                        "N104_PayeeIdentificationCode": "1123454567",
+                        "N101_EntityIdentifierCode": "PE",
+                        "N102_PayeeName": "PROVIDER"
+                    }
+                },
+                "BPR_FinancialInformation": {
+                    "BPR02_TotalActualProviderPaymentAmount": 120.03,
+                    "BPR16_CheckIssueOrEFTEffectiveDate": "2019-08-16T00:00:00Z",
+                    "BPR03_CreditOrDebitFlagCode": "C",
+                    "BPR01_TransactionHandlingCode": "I",
+                    "BPR04_PaymentMethodCode": "CHK"
+                },
+                "DTM_ProductionDate": {
+                    "DTM01_DateTimeQualifier": "405",
+                    "DTM02_ProductionDate": "2019-08-27T00:00:00Z"
+                },
+                "TRN_ReassociationTraceNumber": {
+                    "TRN03_PayerIdentifier": "1234567890",
+                    "TRN01_TraceTypeCode": "1",
+                    "TRN02_CheckOrEFTTraceNumber": "CK NUMBER 1"
+                }
+            },
+            "SetTrailer": {
+                "SE02": "10060875",
+                "SE01": 35
+            },
+            "Summary": {},
+            "Id": "835",
+            "SetHeader": {
+                "ST01": "835",
+                "ST02": "10060875"
+            },
+            "Detail": {
+                "2000_Loop": [
+                    {
+                        "LX_HeaderNumber": {
+                            "LX01_AssignedNumber": 1
+                        },
+                        "2100_Loop": [
+                            {
+                                "DTM_StatementFromOrToDate": [
+                                    {
+                                        "DTM01_DateTimeQualifier": "232",
+                                        "DTM02_ClaimDate": "2019-11-14T00:00:00Z"
+                                    },
+                                    {
+                                        "DTM01_DateTimeQualifier": "233",
+                                        "DTM02_ClaimDate": "2018-11-14T00:00:00Z"
+                                    }
+                                ],
+                                "NM1_CorrectedPatientInsuredName": {
+                                    "NM103_CorrectedPatientOrInsuredLastName": "MASTERS",
+                                    "NM101_EntityIdentifierCode": "74",
+                                    "NM102_EntityTypeQualifier": "1",
+                                    "NM104_CorrectedPatientOrInsuredFirstName": "MARVIN",
+                                    "NM108_IdentificationCodeQualifier": "C",
+                                    "NM109_CorrectedInsuredIdentificationIndicator": "80444444401"
+                                },
+                                "AMT_ClaimSupplementalInformation": [
+                                    {
+                                        "AMT02_ClaimSupplementalInformationAmount": 155,
+                                        "AMT01_AmountQualifierCode": "AU"
+                                    }
+                                ],
+                                "2110_Loop": [
+                                    {
+                                        "REF_LineItemControlNumber": {
+                                            "REF01_ReferenceIdentificationQualifier": "6R",
+                                            "REF02_LineItemControlNumber": "22261822"
+                                        },
+                                        "DTM_ServiceDate": [
+                                            {
+                                                "DTM01_DateTimeQualifier": "472",
+                                                "DTM02_ServiceDate": "2018-11-14T00:00:00Z"
+                                            }
+                                        ],
+                                        "SVC_ServicePaymentInformation": {
+                                            "SVC05_UnitsOfServicePaidCount": 1,
+                                            "SVC02_LineItemChargeAmount": 155,
+                                            "SVC01_CompositeMedicalProcedureIdentifier": {
+                                                "SVC01_ProductOrServiceIDQualifier": "HC",
+                                                "SVC02_AdjudicatedProcedureCode": "99393"
+                                            },
+                                            "SVC03_LineItemProviderPaymentAmount": 120.03
+                                        },
+                                        "REF_ServiceIdentification": [
+                                            {
+                                                "REF01_ReferenceIdentificationQualifier": "LU",
+                                                "REF02_ProviderIdentifier": "11"
+                                            }
+                                        ],
+                                        "CAS_ServiceAdjustment": [
+                                            {
+                                                "CAS01_ClaimAdjustmentGroupCode": "CO",
+                                                "CAS03_AdjustmentAmount": 34.97,
+                                                "CAS02_AdjustmentReasonCode": "45"
+                                            }
+                                        ],
+                                        "AMT_ServiceSupplementalAmount": [
+                                            {
+                                                "AMT02_ServiceSupplementalAmount": 120.03,
+                                                "AMT01_AmountQualifierCode": "B6"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "DTM_ClaimReceivedDate": {
+                                    "DTM01_DateTimeQualifier": "050",
+                                    "DTM02_Date": "2018-11-19T00:00:00Z"
+                                },
+                                "CLP_ClaimPaymentInformation": {
+                                    "CLP06_ClaimFilingIndicatorCode": "13",
+                                    "CLP08_FacilityTypeCode": "11",
+                                    "CLP04_ClaimPaymentAmount": 120.03,
+                                    "CLP03_TotalClaimChargeAmount": 155,
+                                    "CLP01_PatientControlNumber": "04111196TLC777122",
+                                    "CLP02_ClaimStatusCode": "1",
+                                    "CLP09_ClaimFrequencyCode": "1",
+                                    "CLP07_PayerClaimControlNumber": "8838888212"
+                                },
+                                "REF_OtherClaimRelatedIdentification": [
+                                    {
+                                        "REF02_OtherClaimRelatedIdentifier": "28",
+                                        "REF01_ReferenceIdentificationQualifier": "1L"
+                                    },
+                                    {
+                                        "REF02_OtherClaimRelatedIdentifier": "HSOAP-LAOA",
+                                        "REF01_ReferenceIdentificationQualifier": "CE"
+                                    }
+                                ],
+                                "NM1_InsuredName": {
+                                    "NM109_SubscriberIdentifier": "80444444403",
+                                    "NM101_EntityIdentifierCode": "IL",
+                                    "NM102_EntityTypeQualifier": "1",
+                                    "NM108_IdentificationCodeQualifier": "MI",
+                                    "NM104_SubscriberFirstName": "MABEL",
+                                    "NM103_SubscriberLastName": "CABLE"
+                                },
+                                "REF_RenderingProviderIdentification": [
+                                    {
+                                        "REF01_ReferenceIdentificationQualifier": "1J",
+                                        "REF02_RenderingProviderSecondaryIdentifier": "555555555"
+                                    }
+                                ],
+                                "NM1_PatientName": {
+                                    "NM104_PatientFirstName": "MARVIN",
+                                    "NM109_PatientIdentifier": "80444444403",
+                                    "NM101_EntityIdentifierCode": "QC",
+                                    "NM102_EntityTypeQualifier": "1",
+                                    "NM103_PatientLastName": "MASTERS",
+                                    "NM108_IdentificationCodeQualifier": "MI",
+                                    "NM105_PatientMiddleNameOrInitial": "L"
+                                },
+                                "NM1_ServiceProviderName": {
+                                    "NM101_EntityIdentifierCode": "82",
+                                    "NM102_EntityTypeQualifier": "1",
+                                    "NM104_RenderingProviderFirstName": "BLAKE",
+                                    "NM108_IdentificationCodeQualifier": "XX",
+                                    "NM103_RenderingProviderLastOrOrganizationName": "SHELTON MD",
+                                    "NM109_RenderingProviderIdentifier": "1666666666"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Name": "Health Care Claim Payment/Advice"
+        }
+    ]
+]

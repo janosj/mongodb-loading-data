@@ -1,0 +1,293 @@
+{
+		"Interchange": {
+			"ISA09": "2021-07-20T00:00:00Z",
+			"ISA04": "",
+			"ISA15": "T",
+			"ISA03": "00",
+			"ISA14": "0",
+			"ISA02": "",
+			"ISA13": 366230698,
+			"ISA01": "00",
+			"ISA12": "00501",
+			"ISA08": "225795253",
+			"ISA07": "ZZ",
+			"ISA06": "470007947",
+			"ISA05": "ZZ",
+			"ISA16": ":",
+			"ISA11": "$",
+			"ISA10": 8400000
+		},
+		"Errors": [
+			{
+				"interchangeId": 366230698,
+				"errorType": "SEGMENT_SYNTAX",
+				"groupId": 3494,
+				"errorCode": "7",
+				"transactionId": "000000001",
+				"errorLevel": "TRANSACTION_LEVEL",
+				"fatal": false,
+				"errorText": "Segment Not in Proper Sequence",
+				"segment": 26,
+				"segTag": "REF",
+				"errorDetails": "recoverable transaction error 'Segment Not in Proper Sequence: REF'"
+			}
+		],
+		"Group": {
+			"GS05": 72226000,
+			"GS04": "2021-07-20T00:00:00Z",
+			"GS07": "X",
+			"GS06": 3494,
+			"GS08": "005010X222A1",
+			"GS01": "HC",
+			"GS03": "225795253",
+			"GS02": "470007947"
+		},
+		"Heading": {
+			"BHT_BeginningOfHierarchicalTransaction": {
+				"BHT02_TransactionSetPurposeCode": "00",
+				"BHT04_TransactionSetCreationDate": "2018-12-16T00:00:00Z",
+				"BHT03_OriginatorApplicationTransactionIdentifier": "00296CED0",
+				"BHT06_ClaimOrEncounterIdentifier": "CH",
+				"BHT01_HierarchicalStructureCode": "0019",
+				"BHT05_TransactionSetCreationTime": 72226000
+			},
+			"1000A_Loop": {
+				"PER_SubmitterEDIContactInformation": [
+					{
+						"PER02_SubmitterContactName": "NULLA CUSTOMER SOLUTIONS",
+						"PER04_CommunicationNumber": "8005556592",
+						"PER01_ContactFunctionCode": "IC",
+						"PER03_CommunicationNumberQualifier": "TE"
+					}
+				],
+				"NM1_SubmitterName": {
+					"NM109_SubmitterIdentifier": "470007947",
+					"NM101_EntityIdentifierCode": "41",
+					"NM102_EntityTypeQualifier": "2",
+					"NM108_IdentificationCodeQualifier": "46",
+					"NM103_SubmitterLastOrOrganizationName": "NULLA"
+				}
+			},
+			"1000B_Loop": {
+				"NM1_ReceiverName": {
+					"NM103_ReceiverName": "SED MEDICAL CENTER",
+					"NM101_EntityIdentifierCode": "40",
+					"NM102_EntityTypeQualifier": "2",
+					"NM108_IdentificationCodeQualifier": "46",
+					"NM109_ReceiverPrimaryIdentifier": "225795253"
+				}
+			}
+		},
+		"SetTrailer": {
+			"SE02": "000000001",
+			"SE01": 37
+		},
+		"Summary": {},
+		"Id": "837",
+		"SetHeader": {
+			"ST03": "005010X222A1",
+			"ST01": "837",
+			"ST02": "000000001"
+		},
+		"Detail": {
+			"2000A_Loop": [
+				{
+					"2010AB_Loop": {
+						"N3_PayToAddressADDRESS": {
+							"N301_PayToAddressLine": "2103 MAECENAS STREET"
+						},
+						"NM1_PayToAddressName": {
+							"NM101_EntityIdentifierCode": "87",
+							"NM102_EntityTypeQualifier": "2"
+						},
+						"N4_PayToAddressCityStateZIPCode": {
+							"N401_PayToAddressCityName": "HERNDON",
+							"N403_PayToAddressPostalZoneOrZIPCode": "220709076",
+							"N402_PayToAddressStateCode": "VA"
+						}
+					},
+					"2000B_Loop": [
+						{
+							"2010BA_Loop": {
+								"DMG_SubscriberDemographicInformation": {
+									"DMG02_SubscriberBirthDate": "88888888",
+									"DMG03_SubscriberGenderCode": "M",
+									"DMG01_DateTimePeriodFormatQualifier": "D8"
+								},
+								"REF_SubscriberSecondaryIdentification": {
+									"REF01_ReferenceIdentificationQualifier": "SY",
+									"REF02_SubscriberSupplementalIdentifier": "777777777"
+								},
+								"N3_SubscriberAddress": {
+									"N301_SubscriberAddressLine": "6693 ERAT STREET"
+								},
+								"NM1_SubscriberName": {
+									"NM109_SubscriberPrimaryIdentifier": "197084525",
+									"NM101_EntityIdentifierCode": "IL",
+									"NM102_EntityTypeQualifier": "1",
+									"NM108_IdentificationCodeQualifier": "MI",
+									"NM104_SubscriberFirstName": "JUSTO807",
+									"NM103_SubscriberLastName": "IN327"
+								},
+								"N4_SubscriberCityStateZIPCode": {
+									"N401_SubscriberCityName": "SHAWNEE MISSION",
+									"N402_SubscriberStateCode": "KS",
+									"N403_SubscriberPostalZoneOrZIPCode": "662861412"
+								}
+							},
+							"SBR_SubscriberInformation": {
+								"SBR09_ClaimFilingIndicatorCode": "VA",
+								"SBR02_IndividualRelationshipCode": "18",
+								"SBR01_PayerResponsibilitySequenceNumberCode": "P",
+								"SBR04_SubscriberGroupName": "SED MEDICAL CENTER"
+							},
+							"2010BB_Loop": {
+								"NM1_PayerName": {
+									"NM101_EntityIdentifierCode": "PR",
+									"NM102_EntityTypeQualifier": "2",
+									"NM108_IdentificationCodeQualifier": "PI",
+									"NM103_PayerName": "SED MEDICAL CENTER",
+									"NM109_PayerIdentifier": "12115"
+								}
+							},
+							"2300_Loop": [
+								{
+									"2310C_Loop": {
+										"NM1_ServiceFacilityLocationName": {
+											"NM103_LaboratoryOrFacilityName": "SED MEDICAL CENTER",
+											"NM101_EntityIdentifierCode": "77",
+											"NM102_EntityTypeQualifier": "2"
+										},
+										"N3_ServiceFacilityLocationAddress": {
+											"N301_LaboratoryOrFacilityAddressLine": "6245 IN STREET"
+										},
+										"N4_ServiceFacilityLocationCityStateZIPCode": {
+											"N403_LaboratoryOrFacilityPostalZoneOrZIPCode": "853059748",
+											"N402_LaboratoryOrFacilityStateOrProvinceCode": "AZ",
+											"N401_LaboratoryOrFacilityCityName": "GLENDALE"
+										}
+									},
+									"CLM_ClaimInformation": {
+										"CLM07_AssignmentOrPlanParticipationCode": "A",
+										"CLM06_ProviderOrSupplierSignatureIndicator": "Y",
+										"CLM01_PatientControlNumber": "UWHU6NCJRZBWAOFJ",
+										"CLM09_ReleaseOfInformationCode": "Y",
+										"CLM02_TotalClaimChargeAmount": 1850,
+										"CLM08_BenefitsAssignmentCertificationIndicator": "Y",
+										"CLM05_HealthCareServiceLocationInformation": {
+											"CLM03_ClaimFrequencyCode": "1",
+											"CLM01_PlaceOfServiceCode": "22",
+											"CLM02_FacilityCodeQualifier": "B"
+										}
+									},
+									"REF_ClaimIdentifierForTransmissionIntermediaries": {
+										"REF02_ValueAddedNetworkTraceNumber": "121618798934613",
+										"REF01_ReferenceIdentificationQualifier": "D9"
+									},
+									"HI_HealthCareDiagnosisCode": {
+										"HI01_HealthCareCodeInformation": {
+											"HI02_DiagnosisCode": "H2512",
+											"HI01_DiagnosisTypeCode": "ABK"
+										}
+									},
+									"2310A_Loop": [
+										{
+											"NM1_ReferringProviderName": {
+												"NM101_EntityIdentifierCode": "DN",
+												"NM102_EntityTypeQualifier": "1",
+												"NM108_IdentificationCodeQualifier": "XX",
+												"NM103_ReferringProviderLastName": "LACUS715",
+												"NM109_ReferringProviderIdentifier": "1111111111",
+												"NM104_ReferringProviderFirstName": "IN817"
+											}
+										}
+									],
+									"2310B_Loop": {
+										"PRV_RenderingProviderSpecialtyInformation": {
+											"PRV02_ReferenceIdentificationQualifier": "PXC",
+											"PRV01_ProviderCode": "PE",
+											"PRV03_ProviderTaxonomyCode": "555W55555X"
+										},
+										"NM1_RenderingProviderName": {
+											"NM107_RenderingProviderNameSuffix": "MD",
+											"NM101_EntityIdentifierCode": "82",
+											"NM102_EntityTypeQualifier": "1",
+											"NM104_RenderingProviderFirstName": "GRAVIDA867",
+											"NM108_IdentificationCodeQualifier": "XX",
+											"NM103_RenderingProviderLastOrOrganizationName": "ID670",
+											"NM109_RenderingProviderIdentifier": "2222222222"
+										}
+									},
+									"2400_Loop": [
+										{
+											"REF_LineItemControlNumber": {
+												"REF01_ReferenceIdentificationQualifier": "6R",
+												"REF02_LineItemControlNumber": "576763P3788B9019"
+											},
+											"LX_ServiceLineNumber": {
+												"LX01_AssignedNumber": 1
+											},
+											"SV1_ProfessionalService": {
+												"SV104_ServiceUnitCount": 1,
+												"SV107_CompositeDiagnosisCodePointer": {
+													"SV101_DiagnosisCodePointer": 1
+												},
+												"SV101_CompositeMedicalProcedureIdentifier": {
+													"SV101_ProductOrServiceIDQualifier": "HC",
+													"SV102_ProcedureCode": "91317",
+													"SV103_ProcedureModifier": "LT"
+												},
+												"SV102_LineItemChargeAmount": 1850,
+												"SV103_UnitOrBasisForMeasurementCode": "UN"
+											},
+											"DTP_DateServiceDate": {
+												"DTP01_DateTimeQualifier": "472",
+												"DTP02_DateTimePeriodFormatQualifier": "D8",
+												"DTP03_ServiceDate": "20180510"
+											}
+										}
+									],
+									"REF_ReferralNumber": {
+										"REF02_ReferralNumber": "403216108",
+										"REF01_ReferenceIdentificationQualifier": "9F"
+									}
+								}
+							]
+						}
+					],
+					"2010AA_Loop": {
+						"PER_BillingProviderContactInformation": [
+							{
+								"PER02_BillingProviderContactName": "IN BILLING",
+								"PER04_CommunicationNumber": "3211231234",
+								"PER01_ContactFunctionCode": "IC",
+								"PER03_CommunicationNumberQualifier": "TE"
+							}
+						],
+						"N4_BillingProviderCityStateZIPCode": {
+							"N401_BillingProviderCityName": "HERNDON",
+							"N403_BillingProviderPostalZoneOrZIPCode": "220709076",
+							"N402_BillingProviderStateOrProvinceCode": "VA"
+						},
+						"NM1_BillingProviderName": {
+							"NM101_EntityIdentifierCode": "85",
+							"NM102_EntityTypeQualifier": "2",
+							"NM108_IdentificationCodeQualifier": "XX",
+							"NM109_BillingProviderIdentifier": "419823872",
+							"NM103_BillingProviderLastOrOrganizationalName": "IN BILLING"
+						},
+						"N3_BillingProviderAddress": {
+							"N301_BillingProviderAddressLine": "2103 MAECENAS STREET"
+						},
+						"REF_BillingProviderTaxIdentification": {
+							"REF02_BillingProviderTaxIdentificationNumber": "999999999",
+							"REF01_ReferenceIdentificationQualifier": "EI"
+						}
+					}
+				}
+			]
+		},
+		"Name": "Health Care Claim"
+	}
+}
+

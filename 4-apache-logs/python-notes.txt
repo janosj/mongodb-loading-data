@@ -1,17 +1,19 @@
 The pymongo docs are here: https://docs.mongodb.com/drivers/pymongo/
 
 To install/uninstall pymongo:
-  pip3 uninstall pymongo
+  python3 -m venv demoenv 
+  source demoenv/bin/activate
   pip3 install pymongo
+
+Also: 
+  pip3 uninstall pymongo
   pip3 show pymongo
 
-However, note that this won't support the mongdb+srv URIs used by Atlas.
-The "dnspython" module must be installed to use mongodb+srv:// URIs. 
-To fix this error install pymongo with the srv extra:
- pip3 install "pymongo[srv]"
-
 To install the apachelog parser (from here: https://pypi.org/project/apachelogs/):
-  pip3 install --user apachelogs
+  pip3 install apachelogs
 
 The Apache log form string is here: http://httpd.apache.org/docs/current/mod/mod_log_config.html. The data set matches the NCSA extended/combined log format, but the input file has an extra "-" at the end, corresponding to an additional %X in the code.
+
+To deactivate the virtual python environment: 
+  deactivate
 
